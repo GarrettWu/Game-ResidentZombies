@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cafgame.residentzombies"
+    android:installLocation="auto"
+    android:versionCode="16"
+    android:versionName="1.1.6" >
+
+    <!-- android:hardwareAccelerated="true" -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name">
+        <activity
+            android:name="com.wiyun.engine.skeleton.Skeleton"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" 
+            android:launchMode="singleTop">
+            <intent-filter>    		
+            	<action android:name="android.intent.action.VIEW" />
+   				<category android:name="android.intent.category.BROWSABLE" />
+   				<category android:name="android.intent.category.DEFAULT" />
+   				<data android:scheme="http"
+         			  android:host="e.apsalar.com"
+         			  android:pathPrefix="/api/v1/appstore/com.cafgame.residentzombies" />
+   			</intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.wiyun.engine.skeleton.BannerAdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" >
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wiyun.engine.skeleton.LogoActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <!-- TAPJOY -->
+        <activity
+            android:name="com.tapjoy.TJCOffersWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyFeaturedAppWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyFullScreenAdWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyDailyRewardAdWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyVideoView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TJAdUnitView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.tapjoy.mraid.view.ActionHandler"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.mraid.view.Browser"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <!-- for ad system -->
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <!-- For Sponsorpay -->
+        <activity
+            android:name="com.sponsorpay.sdk.android.publisher.ofw.OfferWallActivity"
+            android:configChanges="orientation" />
+
+        <meta-data
+            android:name="SPONSORPAY_APP_ID"
+            android:value="18413" />
+
+        <!-- ChartBoost & Applovin -->
+        <activity
+            android:name="com.chartboost.sdk.CBDialogActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="VriSVhBcXPItThs3pIC3USDwXvm5W11A04ZSWPBB07WhKJIHMu5TdWV-DEzylacKoTxvtqNzLNkkFXu5VPZI88" />
+        <!-- ChartBoost & Applovin -->
+        
+        
+        
+        <meta-data android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+        
+        
+        <receiver
+            android:name="com.feelingtouch.proxy.demo.InstallReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        
+        
+        
+        <activity
+            android:name="com.apsalar.sdk.Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="Apsalar" >
+        </activity>
+        
+        
+        <activity
+      		android:name="com.vungle.sdk.VungleAdvert"
+      		android:configChanges="keyboardHidden|orientation|screenSize"
+      		android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    	/>
+
+    	<service android:name="com.vungle.sdk.VungleIntentService"/>
+    </application>
+
+    <uses-sdk android:minSdkVersion="10"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+<!--     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+</manifest>

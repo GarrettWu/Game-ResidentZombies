@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_show_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+     <Button
+        android:id="@+id/game_show_close"
+        android:layout_width="80dip"
+        android:layout_height="26dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/banner_firstpage_close_btn" />
+
+    <Button
+        android:id="@+id/game_show_download"
+        android:layout_width="161dip"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/banner_firstpage_download_btn" />
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="801"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Up1KDQRQF4ITi6XgSmqfjgQTiQ39LOp6Op+PpeODjDbhqd5j/zH4zK881p1Qq8p+zxTY77LLHPgccJuwVzRHHnHDKGedccJmwVzRXXHPDLXfc88BjulrhPPHMC6+88c4Hnwl7RfPF9++n7NFCK220lxOXC6RD10666KaHXvroz+COv27QgK4VqgwyxDAjjCa+I7JBY7qOM8EkU0wzw2ziOyIbNKfrPAvUqLPIEo3Ed0Q2qKnrMiusssY6G2wmvqPYoLyS8wZFkvMGRZLzBkWS8wYVyTM/4WdPVKAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SJ1ccAQCF0aU3SW+S3iQlQEAmdJD0JqkJYAMJEE1LQNPhR3LliD27Y+aMYL5zrn/ipVJJSUlJn6cccskjnwIKKaKYEkopi2tgyMqpoJIqqqmhljrqaaAxroEha6KZFlppo50OOumim564Boaslz76GeALgwwxzFdGGI1hW/Dz2f79je+MMc4Ek0wxzQyzzEU7OW3Bz2f79zwLLLLEMiusssY6G2xGujh9wc9n+/cW2+ywyx77/OAnBxxyFO3ktAU/H+bfvzjmhN/84ZQzzvkb3dSMBT8f5t8XXHLFNTf84z+33EU5NkPBz4f59z0PPPLEMy+88sZ7lGMzFPx8nP9OSoqzD8E1hcSgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SNU5EYRSAUVxL3ErcStxK3ErcEtwlwXYAbAG2AFuAfXEqMiSEmYFh3pC8Lzn5m5v3bnHT0sLCwv6iTbbYZofdYNf5cZdccc0Nt0n45yNPEW+iuuOehwR+87ueeYl4/2uvvEW8XxXee+qV7HtPteK5yWiz6WSQSRbZ5JBLHvkUUJi49T+K5yajzRZRTAmllFFOBZVUUU1N4tb/VDw3+d1sLXXU00AjTTTTQitttP9+5T+tg0666KaHXvroZ4BBhgLaL9aGGWGUMcaZYJIppplhNqgFY2yOeRZYZIllVlhljXU2Atov1vbY54BDjjjmhFPOOOciqAXDovYObiEyCqAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TOQrCUBCA4dQKbrWCW63gViu41XoFBbdawe0G6pX9D+AkvGfMKM4PX5VhmOIlCCzLiqsV1thgi53uOd4dccIZF1x1z3mrG+54aB/yR9l/oFMKaeHbL/0HRZRi3unyJqNmM8gihzwKwp4Gmv4nv8zlTUbNllFBFTXUhT19DHwPDsnlTYbNttBGB130hB0zzN3PTKwhRhhjgqkwt8AyqaM+2B4H7SMs60t7Aph3hYagDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEAA2kD7QAqgYqBdsAoGHSAVmm7E4i7aGQ2NkCrtD0biOcQUNMNxD00sp+eYC4QzxtoR4yCUTAKRsEowAoADMmSbKAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OwQkAIAwEwfSvLWitpojAgczA/rcKgB+sbqcnBpzupicAAAIecg0Xh6APAAA=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="384" width="32" height="32"/>
+  <object x="128" y="288" width="192" height="32"/>
+  <object x="224" y="384" width="128" height="32"/>
+  <object x="416" y="160" width="192" height="32"/>
+  <object x="576" y="256" width="288" height="32"/>
+  <object x="608" y="384" width="192" height="32"/>
+  <object x="960" y="384" width="192" height="32"/>
+  <object x="1408" y="192" width="128" height="32"/>
+  <object x="1216" y="416" width="288" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="heiyiwushi" x="128" y="224" width="32" height="32"/>
+  <object type="hongyiwushi" x="768" y="192" width="32" height="32"/>
+  <object type="heiyiwushi" x="1440" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="trap3" x="608" y="288" width="32" height="32"/>
+  <object type="bigbigcoin" x="1504" y="128" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="hongyiwushifly" x="1120" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushi" x="1536" y="544" width="32" height="32">
+   <properties>
+    <property name="cmd" value="jb,0.7,-15,50;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

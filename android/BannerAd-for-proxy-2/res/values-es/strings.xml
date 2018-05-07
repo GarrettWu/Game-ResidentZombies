@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_app_name">BannerAd</string>
+	<string name="banner_quit_question">QUERES SALIR DE JUEGO?</string>
+	<string name="banner_yes">SI</string>
+	<string name="banner_no">No</string>
+</resources>

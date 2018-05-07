@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="banner_app_name">BannerAd</string>
+	<string name="banner_download">Download</string>
+	<string name="banner_install">Install</string>
+	<string name="banner_open">Open</string>
+	<string name="banner_title">Feature Games</string>
+	<string name="banner_ok">Close</string>
+	<string name="banner_quit_question">Are you sure to quit game?</string>
+	<string name="banner_yes">Yes</string>
+	<string name="banner_no">No</string>
+	
+</resources>

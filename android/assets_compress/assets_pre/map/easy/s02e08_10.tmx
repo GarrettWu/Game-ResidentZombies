@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s02" tilewidth="32" tileheight="32">
+  <image source="s02.png" width="512" height="736"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2PsRGDMBRDTQdMAJmAMAFhAsh4jMIIGSEjpApMAFSo+U0arHPwUejdqfPXk50TQggRmy8yIbPH2yGSh8E2LciKbB43Y4CP8TDYpjRxLkPy5PjmFeBjPAy2qUBvidw8+t8BPsbDYJsq9N6R2qP/E+BjPAy2qUHvA2n/3P/L2Z4OvT3yPPkfsTxCCHFlds9oMhmgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_-1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OuRGAMBDAQDfO0wDgBngaAFOilRNecATaGeUqRZK+Bhppojl3JWShlTaqyS8ROx100pW7EnLTQ43e5BdJkqS/6fQNSpGgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3NwQ2CQBAFUGpQNnpWiJ4VG1BsQLEBxQYUGlDs23+AhEz+ZrNzMmYmefmZ8JlNEhsbGxsbGxub35gJTCEF1+cM5qN04vuQqWf3/ce6Go68tYAlZJD3uYL1KHPxfcjMs/v+Y12NnLy1gS0UsIvMIrCzvuxqsBt7OEAJx8gsAzvry64Gu3GCM1RwicwqsLO+7GqwG1e4QQ33yKwDO+vLrga78YAnNNBGZhPYWV92NdiNF7yhg09kdoGd9WVXg934l/kC6j1Ri6APAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OMQ5AMACF4d7/BOw4AQbsqO7lNv7B1EQjjRrkfck/aJs8xoiIiMifzbTQGpxXVFOTeSfVQCNN17ennY7gXUsd9S9sxHZiCipv7ixt5BL+76kvNkREJL8TVoxzBKAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20" opacity="0.89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UMQ5BQRgG96FAiQIlCpQoUKJAiRPgQuIE4gTiBOIE4hIoUaAyxRZbUGxe7GZjJ5n85ZvvFSuEx+PxfOeKN7zbDglJJBAiirHAdok+C3mXmKI/jRlLO9QWXVbyrrFAfxFLlnaoLbps5N1ijf46NiztUFt02cm7xw79XexZ2qG26HKQ94gj+sc4MbTjhGe8fGgJw5T+Gc4N7XjgE19mPvcz4vyvBCYdfOdVsvTnMO/4jjL9Faw6vqNJfwvbju/o0z/AoeM7/oE3el7fSqAPAAA=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="384" width="1600" height="32"/>
+  <object x="416" y="192" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="kuloushibing" x="320" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.7;w,5,-10;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="1408" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.7;w,5,-10;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="384" y="288" width="32" height="32"/>
+  <object type="kuloushibingfly" x="608" y="96" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn,1.0;"/>
+   </properties>
+  </object>
+  <object type="kuloutouling" x="1536" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="544" y="96" width="32" height="32"/>
+  <object type="coin" x="576" y="96" width="32" height="32"/>
+  <object type="coin" x="1216" y="320" width="32" height="32"/>
+  <object type="coin" x="1248" y="320" width="32" height="32"/>
+  <object type="bigcoin" x="128" y="224" width="32" height="32"/>
+  <object type="trap2" x="1120" y="416" width="32" height="32"/>
+  <object type="trap2" x="416" y="416" width="32" height="32"/>
+  <object type="torch" x="384" y="224" width="32" height="32"/>
+  <object type="torch" x="1568" y="224" width="32" height="32"/>
+  <object type="bigbigcoin" x="864" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="kuloutoujizhe" x="480" y="320" width="32" height="32"/>
+ </objectgroup>
+</map>

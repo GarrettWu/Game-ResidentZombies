@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14B88BE3-EA33-49E2-B457-6EDDB0883395</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NinjaCat_ios_390</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>56059718-5F7A-460F-A463-82A7055377B2</key>
+		<string>https://192.168.1.14:8443/svn/CODE/ResidentZombies/ResidentZombiesV1.0</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>code/ios/ios_standard/NinjaCat_ios_390.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>56059718-5F7A-460F-A463-82A7055377B2</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>56059718-5F7A-460F-A463-82A7055377B2</key>
+		<string>https://192.168.1.14:8443/svn/CODE</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.1.14:8443/svn/CODE/ResidentZombies/ResidentZombiesV1.0/code/ios/ios_standard/NinjaCat_ios_390.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>56059718-5F7A-460F-A463-82A7055377B2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>ResidentZombies/ResidentZombiesV1.0/branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>ResidentZombies/ResidentZombiesV1.0/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>ResidentZombies/ResidentZombiesV1.0/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>56059718-5F7A-460F-A463-82A7055377B2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ResidentZombiesV1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

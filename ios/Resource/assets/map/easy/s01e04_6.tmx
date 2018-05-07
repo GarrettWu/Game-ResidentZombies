@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="512"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMglFALghmZGAIAeJQxoF2CW4gB8TyBNQUAd1fDMQlBPzhPYj9CQITge6bBMSTCbgza5D7YwPQfRuBeBMed3YA5TrJ8IcBIwQbArEREBvTMCzOA82+AMQX8dixHCi3gkg33ETj+wP1BQBxIBAH0SFOP+Cx4xgJ9v9A4+cB9eYDcQEQFw5w2nyKZP8LIt0CSkMmQGxKodupYQaxADndmw3y8mCggfgwCZ/ReB4FQwUAAKmkPJegDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RSU4CQRTG8QYVRa+gGAWRY6go3kBAFziBXoDJhYqKXMCJFYPewHEncgRU2IEeROXPwqQXViBYRUJSX/JL53Uqr+pVGYaOjo6OTr9lzGIYdoxa5PVcoZcfAQSxijWJ/f9KhP472O1iH9EdRKljiCOBJPYUz5Gm/ykyXewjuoMz6nNc4BJXyCqe4z8R3cEt9R3u8YBHPJnWiN7RigEMYgg2DLepRTGvf0YJLyhjBPYO5qtwvle84R1V1ExnFr3jFKbhhAszcEuo62jgA5+YhaeDOdpF9I5zmMcCvFjEkoT6C9/4aW3Cnj4+yxLmECWEdWxgE1vYllCPc/YJODCJMP8iCufYxwEOkcIRjhXUJ0grnOM3OeRRQFFBfY2bHsyhoyMjTWLUUP+gDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMglEwCkbBKBjcYA4QzyVBPQcjrVxCGdgNxHsG2hFUALeA+Daa2OGBcMgoGAWjYBQMMwAABxFslaAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3O500CUBiGUbaw6xYqti3EhlugSNnChrqFYGMLVCxbgGL5yVnhJiY3Jt+TnN/vWyhEURRFURRF/6EJJplimhlmmWOehXzXklpkiWWKrLDKGuts5LuW1CYltthmh132KLOf71pSFQ44pMoRNeo0aOa7ltQxJ5xyxjktLrjkKt+1pK5p0+GGW+6454FuvmtJ9XjkiWf6vPDKG+/5riU1YMgHn4z44psffv94bwxRruLZoA8AAA==
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="1472" y="384" width="96" height="32"/>
+  <object x="544" y="288" width="96" height="32"/>
+  <object x="1024" y="320" width="96" height="32"/>
+  <object x="1230" y="288" width="157" height="33"/>
+  <object x="64" y="416" width="896" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="tuzijianke" x="576" y="224" width="32" height="32"/>
+  <object type="tuzijianke" x="96" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;j,-15,40;j,-15,40;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="1536" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="checkPoint" x="832" y="416" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="tuzijianke" x="576" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.6;"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="1344" y="224" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.6;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="1216" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="416" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.6;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s02" tilewidth="32" tileheight="32">
+  <image source="s02.png" width="512" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztkdkJAkEQBXs8AvAKwCuA9QrcEAzBDDz/Rddva1BBVLRpGMePLigWFh7U0CKO4zgiqzf/9j+vSMM5d4CBEK7fDW5xp9zd7/i4y3nHxu0dRzxhqdwd5HWX845d3lHBKtawHnS7YNylpElDC9vYwZmiKd7xeadlbk/9SI+GPg5wqOyJd7TsIgtb5ldGNIxxglNlTxFsu8jSlvl3rHMHOI7jJOICVzIZCQ==
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0aeuAlAQhOGlg6SDpHMlHSQdJB00l/b+L8Cvjz3ZAMlO8pkxm8mKWCwWi8Vi+fVEEUMIYUQUuzgSSjtyyCONDLKKXQFFpR11NFBBFTXFrok/534AQfH/fR8DdNBFT7EbYuTsSCIl/r9fYIkpZpgrdiusnR0llMX/90ecsMMeB8XujIuzo4W2+P/+jgeu+MdNsXvi5ewYYyL+v/90NtiK/+8t35U34aE9FA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjsKgDAURNHsv1P81IraC5peXIFLcAm6AkeIICkE8xKDMAcuU4UXpYiIiPzIUI6KiH9IUBrxvi8Vqs1KNKhFnfhHbnprXQ1oRPrlu1J49zJZG4Kvvz5Zbjt/cC+U1dq/2tBulojodACsTRPi
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0D0OgkAUReEZlQUougBQFoDo/tdi/OlRsfYU1BbAHWJyT/KF7jHvheCcc845999d+u8VN9zxmO85g2vxxAtvdPgI/6e6W4whLLDEClmcYOiPVHdb8+4NcmyxE++hulvBnBJ7HFCJ91DdrWbOEQ1OOIv3SH03Vanv5sb1Be1YGLE=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="384" width="928" height="32"/>
+  <object x="1024" y="448" width="576" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="kuloushibing" x="672" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="torch" x="1216" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20"/>
+</map>

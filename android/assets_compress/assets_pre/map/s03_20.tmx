@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="76" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="801"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="76" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QNzOFURSG0XuFWqaWqeWrlqllfqVMLVPL1DK1sJRfb+Y7xX7mrOJ0e95CIYqiKIqiKPqv1lhng0222GaHXfbyOy3J9jngkCOOOeGUM87zOy3JLrjkimtuuOWOex5yuyzNHnnimRdeeeOdDz7zOy3Jvvjm5+9T9CijnAoqi/nel1pV9qimhlrqqKeBRppir0zN9mihlTba6aCTLrpjr0w99uilj34GGGSIEsOxV6YRe4wyxjgTTDLFNDOxV6ZZe8wxzwKLLLHMCquxVxQl1S/fWjOIwBcAAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="76" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TyU4CQRRAUXBCYSnivBQEFZfOIEtBUHSpoiImqDhPCYp/gPwyd0NCOl10UzQdTd5NzqpS1EtR7fFIkiRJkiRJktSpMm5wiztUulzX/V2dhjCMEfgwijH4EXBwjk57qvjCN2r4Mey1Wlelu8+YFwMYRAiTmMI0ZjCLOcxrzmF2N1Z76vhFQ3Gm1boq3X3tjSOICSwiihiWsIwVxLGqOYfqbpyYXVU/vr1WCwgjgk1sYRs7SCCJXaR6OKOfd2OWU9+eWWtYxwb2kUUOBzhEHkc4dvBMN9L5j+y8yz2kkUEB57jAJYq4QgnXmnP/p+y8yxOc4gxPeMYLXvGGd3zg04V5/0JW7/IeD3h0bSJJkuzUBFzaoATAFwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="76" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RyQnAMAxEUVebGtyClw681Bo14ENARrLzH8xJMAwoBAAAAAA3e5x0eJIkeXGLCv0aHV/t/FGT9I39Fix+9EdFUq1HHGRIpvUIAIArL3EvRorAFwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="76" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QNzNnYRiH4b8GK9UytZVrmVpa1OJSy9Qyn0mcUVsr1TK1xaJwlc4nOGfGe89c1dM880ulQqFQKBQKxd02O+yyxz4HX+6HMfyU5I74wzF/OeGUM865iO+1RHbJFdfccMsd9zzwGN9rieyJfzzzwiv/eeOdj/heS2TpaalUBpn8IItscsglLy3uD5NVvj0KKKSIYkoopYzysFekCnv8pJIqqqmhljrqw16RGuzRSBPNtNBKG+10hL0iddqji2566OUXffQzEPaKNGiPIYYZYZQxfjPORNgr0qQ9pphmhlnmmGeBxbBXpCV7LLPCKmuss8EmW2Gv0DfuE2pRUhXAFwAA
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="76" height="20">
+  <object x="0" y="384" width="224" height="32"/>
+  <object x="448" y="352" width="96" height="32"/>
+  <object x="704" y="384" width="96" height="32"/>
+  <object x="864" y="352" width="96" height="32"/>
+  <object x="1088" y="320" width="96" height="32"/>
+  <object x="1344" y="320" width="96" height="32"/>
+  <object x="1632" y="416" width="96" height="32"/>
+  <object x="1792" y="320" width="96" height="32"/>
+  <object x="2080" y="480" width="96" height="32"/>
+  <object x="2368" y="384" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="76" height="20">
+  <object type="summonPoint" x="1376" y="256" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+    <property name="scope" value="0"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="1824" y="256" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+    <property name="scope" value="0"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="896" y="288" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+    <property name="scope" value="0"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="1120" y="256" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+    <property name="scope" value="0"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="480" y="288" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+    <property name="scope" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="76" height="20">
+  <object type="summonCoin" x="512" y="256" width="32" height="32"/>
+  <object type="summonCoin" x="864" y="224" width="32" height="32"/>
+  <object type="summonCoin" x="1568" y="320" width="32" height="32"/>
+  <object type="summonCoin" x="2080" y="384" width="32" height="32"/>
+  <object type="summonItem" x="128" y="416" width="32" height="32"/>
+ </objectgroup>
+</map>

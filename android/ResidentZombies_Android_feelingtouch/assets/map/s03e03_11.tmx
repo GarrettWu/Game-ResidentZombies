@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="801"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PNVOcYRiG0Q0ECyUuKXErcUmZ4FDi0uLS4tKSEAKpYHCp4C/A/+I02+/OCjPMd82c9r2fNxQKCgoKCgoK+ox9IYVUvpJGOhlkksU3siN465yLJG+GyyGXPPIpoJAiiimhlO8RvPXMS5I3w5VRTgWVVFFNDbXUUU9DBG+98pbkzXCNNNFMC6200U4HnXTxI4o3P2LzJ7/opode+uhngEGGGI7HB6LcjKYRRhljnAkmmWKaGWZjPz3hm3PMs8AiSyyzwiprrMd+esI3N9hki2122GWPfQ44jP30hG8e8Zs/HPOXE/5xyhn/Yz894ZuXXHHNDbfccc8DjzzF4fZ4br4Dl88od6APAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3HQQ0AIAwAsflXARbAAvhiAsj+S9rkHhcBAPA3sll8FyvbxXdxsls8AL09in5muaAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OyQ0AIAwDwbTP0QGEWnEHfCCR0I60b9sMAAD8rKiafeKCoWbwZlM9ePMFVyv7BADgaAMu7C7coA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OQQkAIBAAQSNpBa2g/at4IQ5OcAb2v60BAL/o0aieSDCjVT2RYEenegKAZ1xmlhH1oA8AAA==
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="192" y="384" width="288" height="32"/>
+  <object x="704" y="352" width="192" height="32"/>
+  <object x="1120" y="384" width="288" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20"/>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="xuankongbiao" x="608" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,0,-5;w,4,0,5;"/>
+   </properties>
+  </object>
+  <object type="bigbigcoin" x="288" y="160" width="32" height="32"/>
+  <object type="coin" x="480" y="288" width="32" height="32"/>
+  <object type="coin" x="544" y="224" width="32" height="32"/>
+  <object type="coin" x="608" y="160" width="32" height="32"/>
+  <object type="coin" x="672" y="224" width="32" height="32"/>
+  <object type="coin" x="736" y="288" width="32" height="32"/>
+  <object type="coin" x="832" y="288" width="32" height="32"/>
+  <object type="coin" x="896" y="224" width="32" height="32"/>
+  <object type="coin" x="960" y="160" width="32" height="32"/>
+  <object type="coin" x="1024" y="224" width="32" height="32"/>
+  <object type="coin" x="1088" y="288" width="32" height="32"/>
+  <object type="coin" x="1248" y="256" width="32" height="32"/>
+  <object type="coin" x="1376" y="256" width="32" height="32"/>
+  <object type="coin" x="1312" y="192" width="32" height="32"/>
+  <object type="coin" x="1280" y="320" width="32" height="32"/>
+  <object type="coin" x="1344" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20"/>
+</map>

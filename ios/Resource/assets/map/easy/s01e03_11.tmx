@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="512"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2SSQ4BQRSGqw8gIcYVFzAkpqUTsDDcggWOwQLHYIFjsDAcxBA38PWikk6vimo6nbwv+TYvNf2vnlKCIAi/p+QoVXbsz8ljwXBtElOYxgxmMWd5f5sMnQByuLQM11WxhnVsYNPiTt0TN8cooBymdLGHfRwY7lngEle+uu7JMIQcY5zg9IM9W9zh3lfXPZmRYf7nHN9wwjNe8Oqp656sybDBVxiP+4Ab3vGBT09dz9uBDEeMR+BPXGIReacQHkXPjFQs58U/bwmZP0EIlDfYLfVgoA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3HQQ0AIAwEwfo3AUUpJwABpJlJ9rFVAAAA8K+Vdup0Hj/FBU1gyrigDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QSU4CURSF4UIp1GVogboMUJQdiM3AhmYHKjhAQdkBok5U1B2AzQZExja4AdRt+JNAUrkpSCEVjck9yTe4L++k7ivD0Gg0Go3m51nyGUYcy1jBKtZ8f73V4Nlm5x3sIoMs9v7hO0rsfIwyTnCKMw/eMYJRPKKOJzTgh4kAxjCOiT59eV/O3VTZuYZb3OEeD513TGIKLXzgE1+wEEQI05jBrNhjmK69L+/LuZtndn7BK97QxHvnHWFE2v+F2Q8TAcxxNo8oFrCImNhjmK69L+/L2U3WsdH+L3zfQhAhbHK2hQSSSCHtYdfel/fl7CY57OMAeRRw6DAfoehhd5D+b+YSFVzhQszXuOnRO3e4L2eNRtM738Utjo6gDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Pqw2AQBBF0RkMLfAxYGgB+qcTtgo+gmdwkxAEYUnuSZ6ZNXfNAADAZdeOryMCi5aC+6ptwb1xs9bfbXqqVI9rRdBV6VZn0jvfvA/q7LQ+6B11mzL5BwDgf06O+peAoA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="75" y="320" width="160" height="32"/>
+  <object x="768" y="384" width="384" height="32"/>
+  <object x="1280" y="384" width="320" height="32"/>
+  <object x="288" y="384" width="384" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="tuzigongjianshoufly" x="640" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,3,-5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="32" y="192" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,3,-5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="1024" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,1,5,-5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="416" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,3,-5;"/>
+   </properties>
+  </object>
+  <object type="tuzifashi" x="1568" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="bigcoin" x="928" y="256" width="32" height="32"/>
+  <object type="coin" x="1536" y="256" width="32" height="32"/>
+  <object type="coin" x="1568" y="288" width="32" height="32"/>
+  <object type="coin" x="1440" y="256" width="32" height="32"/>
+  <object type="coin" x="1408" y="256" width="32" height="32"/>
+  <object type="coin" x="1504" y="256" width="32" height="32"/>
+  <object type="coin" x="1472" y="256" width="32" height="32"/>
+  <object type="coin" x="1568" y="224" width="32" height="32"/>
+  <object type="light" x="1056" y="160" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="tuzigongjianshou" x="1056" y="320" width="32" height="32"/>
+  <object type="tuzigongjianshoufly" x="224" y="96" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,3,5,-1;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

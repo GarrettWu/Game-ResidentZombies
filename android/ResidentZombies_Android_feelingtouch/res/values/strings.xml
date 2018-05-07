@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Resident Zombies</string>
+  <string name="request_purchasing">Request Purchasing...</string>
+  <string name="purchase_dialog_title">Notice</string>
+  <string name="purchase_failed">Sorry, purchasing failed, please try again.</string>
+  <string name="purchase_succeed">Congratulations, purchasing succeed!</string>
+  <string name="get_gems">Congratulations, you have got %d gems!</string>
+  <string name="get_gold">Congratulations, you have got %d gold!</string>
+  <string name="offerwall_gold">Please restart game to get the free gold you earned.</string>
+  <string name="offerwall_gem">Please restart game to get the free gems you earned.</string>
+  
+  <string name="str_ok">Ok</string>
+  <string name="paying">Purchasing...</string>
+</resources>

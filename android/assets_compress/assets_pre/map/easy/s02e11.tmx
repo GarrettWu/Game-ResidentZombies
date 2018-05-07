@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s02" tilewidth="32" tileheight="32">
+  <image source="s02.png" width="512" height="640"/>
+ </tileset>
+ <layer name="tile_terrain" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztyFcNhFAABdGX0ATQBMCCAJoAmgB2wb+THQMIuMmd5PxMCM4555xTL0KMBCky0ZejQIkKtehr0OKDDr3oGzBiwoxF9K3YsOPAKfoufPHDjUf0Oefe+wMowjS9
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="384" width="1600" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20"/>
+ <objectgroup name="obj_objects" width="50" height="20"/>
+</map>

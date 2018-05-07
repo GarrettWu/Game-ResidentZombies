@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="801"/>
+ </tileset>
+ <layer name="tile_terrain" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztyEcNgEAABdE9AIsCyiqgKaApoPlXwxjgzk/+JO8yITjnnHPO/aMMOQpElKKvQo0GLZLo69BjwIhJ9M1YsGLDLvoOnLhw4xF9zrnvXjWDKQU=
+  </data>
+ </layer>
+ <layer name="tile_deco" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzskNgDAUA9G0z9IBS6AEoASgL6YBpEgf5Bz8pLn54JTMzMzM6tdQqz7xoqO+cDvQ+OOXiIlm9YmKZVpoFf+I2minQ30k6KSLbvURsw8939YK3w==
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="416" width="1600" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="boss3" x="960" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20"/>
+</map>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/layout"
+	padding="3dip">
+	<ImageView android:id="@+id/game_icon" android:layout_width="64dip"
+		android:layout_height="64dip" android:layout_alignParentLeft="true"
+		android:layout_marginLeft="15dip" android:layout_centerVertical="true" />
+
+	<Button android:id="@+id/download" android:layout_width="113dip"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:layout_centerVertical="true" android:focusable="true"
+		android:layout_marginRight="8dip" android:textSize="14sp"
+		android:textStyle="bold" android:text="@string/banner_download" />
+	<TextView android:id="@+id/game_name" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="5dip"
+		android:layout_marginLeft="18dip" android:layout_toRightOf="@id/game_icon"
+		android:layout_toLeftOf="@id/download" android:singleLine="true"
+		android:textSize="16sp" android:textStyle="bold" android:textColor="#ff082545" />
+	<TextView android:id="@+id/game_desc" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="18dip" android:layout_below="@id/game_name"
+		android:layout_toRightOf="@id/game_icon" android:layout_toLeftOf="@id/download"
+		android:singleLine="false" android:textSize="14sp" android:textStyle="bold"
+		android:textColor="#ff28588f" />
+
+</RelativeLayout>

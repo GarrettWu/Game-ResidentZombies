@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="banner_app_name">BannerAd</string>
+	<string name="banner_download">下载</string>
+	<string name="banner_install">安装</string>
+	<string name="banner_open">打开</string>
+	<string name="banner_title">推荐游戏</string>
+	<string name="banner_ok">关闭</string>
+	
+	<string name="banner_quit_question">确定要退出游戏?</string>
+	<string name="banner_yes">是的</string>
+	<string name="banner_no">不</string>
+</resources>

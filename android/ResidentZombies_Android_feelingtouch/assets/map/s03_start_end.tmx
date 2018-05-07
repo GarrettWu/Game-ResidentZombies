@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="801"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Kp3JCUQBFUUQoiiYoUTRBiQpFQECRgKApRAQpX5DC/w9LM/cqJO/MLLPnpFLJkiWL7YE0GbLkyFOgSIly5BdqFarUqPNIgyYt2nQiv1Dr0qPPgCeeGTJizCTyC7UpM16Ys2DJK2+sWEd+obZhy449B45X7T3yC7UTH3zyxfeN7Ydf/vjnfGO7t10AvJ1qCkAGAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_3" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQYALEhFc1zAmJnKpoXAsShVDRvFIwCagAASOLm8kAGAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="20" height="20">
+  <object x="0" y="384" width="640" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="20" height="20"/>
+ <objectgroup name="obj_objects" width="20" height="20"/>
+</map>

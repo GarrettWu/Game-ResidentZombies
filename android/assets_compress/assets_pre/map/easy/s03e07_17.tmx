@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="801"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3IQRGCYBRF4T8FKgkUTSBCAkQTIJhAlASoJAA1LqfCm3HxFvfMfJsTglJKKaWU8liEBZZYITY8T62xQYItdobnqT1SHJAhNzxPFTiixAlnw/NUhQtqNLganqduaHHHA53hearHEy+8MRiep0ZM+OCLn+H9oxkwrwtmoA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3IpxLCABQF0UAo8XQ8HU8Nno6n4+n8/7AS+9RD3J05ZoNAKaWUUuo/SiCJECmkkUEWkeF5l0MeBRRRQhkVVA3PuxrqaKCJFtrooGt43vXQxwBDjDBGjInheTfFDHMssMQKa2wMz7stdtjjgCNOOONieN5dccMdDzzxwhsfw1Pqty9QlaoZoA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OQQkAIBAAQSNpBa2g/at4IQ5OcAb2v60BALyjR6N6IsGMVvVEgh2d6gmAT1zuaRvRoA8AAA==
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object type="bound" x="704" y="0" width="32" height="640"/>
+  <object x="32" y="416" width="1024" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20"/>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="end" x="416" y="416" width="32" height="32"/>
+  <object type="bigbigcoin" x="32" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20"/>
+</map>

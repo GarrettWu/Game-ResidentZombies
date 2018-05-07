@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="48" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="1024"/>
+ </tileset>
+ <layer name="tile_bottom" width="48" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPwbZzTZygAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain" width="48" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Ixw2DABQEUSSCqYNg6iDWQTB1YEIdxphGPS0gTl/akd5lHEcppZRS6louPPgI8EBo6EeIkSDFE5mhn6NAiQo1GkO/RYceA14YDf0Jb8xYsGIz9D/Y8cWBH05DX6k7/QFO1njDAA8AAA==
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="48" height="20">
+  <object x="0" y="416" width="1536" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="48" height="20"/>
+ <objectgroup name="obj_objects" width="48" height="20"/>
+</map>

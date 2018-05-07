@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="512"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBRQG8gBsfxAO2IEA11GBgY9xoF2BeXAB+gH32Hij5xh4I/sYeKPLqAfutH8cXNgnEIRWAn0wyo0f/wYGKdQBE4A/XAS6g/RYZC+kIHZMPPPKBgFo2AU0AMAAEq/NGqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3R1wmAQBBF0d2ijXUY6zDWYWzH24CIsrCK78L5nhnGGKWU+l+BNSZEhBgJUut7q/tl7JyjQIkK9QfvaNi5RYceA8aLO3z+8Gz2hBkLVmzYL3by+UOXs5/80FUuZz/5oat8zlZKKfWODui6QI2gDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3R2QnCUBCF4Vw0sQkXMImFRC3EpRCXQlwa0QguVbiASxUuv28DycuFKxiYAx/MYWDCJZ6n0Wg0Go1G8x8pw0eACrbYYY9Dzt62r7BGio2De7LLOUSEGC1cccMdj5y9bT/ihDMuDu7JLucEbXTQRcnwTvgITHZv25944f39+Q7uyS7nHvoYYIgm3woRITbZvW2vcqOGOhoO7sku5xHGmGBasC7nGeZYYFmwLmeN5hf5AN4wWFOgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQ0AIAwDQWcN2H8MmIRNQoGHIErzJ31tSwAAAKhw3HK7aT/dbdr+aYQ0o/sFANR7ANZ1pKAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3O1zGEYRiA0X8rkK2wSxcyXUi7dLErdyHThUwXMl3IXDotfDPMe/M9M+f+KYpcLpfL5XK5/61MD7300U+FKgMMxq0lNcQwI4wyxjgTTDIVt5bUNDPMMsc8NeossBi3llSDJksss8Iqa6yzEbeW1CZbbLPDLnvsc8Bh3FpSRxxzwilnnHPBJVdxa0ldc8Mtd9zzwCNPPMetJfXCK2+888EnX3zzE7eWVEupKFppo50OOumim3Ip+vBv+wVoVQPRoA8AAA==
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="416" width="1600" height="32"/>
+  <object x="608" y="224" width="192" height="32"/>
+  <object x="416" y="320" width="192" height="32"/>
+  <object x="1024" y="288" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="tuzigongjianshou" x="1152" y="224" width="32" height="32"/>
+  <object type="tuzilangke" x="896" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.8;j,0,10;j,-15,20;"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="288" y="544" width="32" height="32">
+   <properties>
+    <property name="cmd" value="jb,0.7,0,50;"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="352" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.7;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="256" y="320" width="32" height="32"/>
+  <object type="coin" x="1312" y="352" width="32" height="32"/>
+  <object type="coin" x="1344" y="352" width="32" height="32"/>
+  <object type="coin" x="256" y="256" width="32" height="32"/>
+  <object type="coin" x="1280" y="352" width="32" height="32"/>
+  <object type="coin" x="256" y="288" width="32" height="32"/>
+  <object type="light" x="320" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="tuzijianke" x="1504" y="512" width="32" height="32">
+   <properties>
+    <property name="cmd" value="jb,0.7,0,50;"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="1408" y="512" width="32" height="32">
+   <properties>
+    <property name="cmd" value="jb,0.7,0,50;"/>
+   </properties>
+  </object>
+  <object type="tuzijiansheng" x="1504" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fz,0.9;w,1.0,5,0;"/>
+   </properties>
+  </object>
+  <object type="tuzifashi" x="768" y="352" width="32" height="32"/>
+ </objectgroup>
+</map>

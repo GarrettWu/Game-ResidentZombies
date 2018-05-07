@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="700" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="700" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3c2ZHUMBCA4RkCgBQggKU40oDiSAOKIw14gTA4lzC4yQGeOGOg58FVg5E9LbnVann+r0ovW7Xl3vaoW9KOvdkAAAAAAAAAAACglScynrYOAgAAAKjkVMab1kEAAAAEdXa72Zzbto5inbxy+1nGl/qXAZDQWw3tLd6drzK+tQ4CmNBqTvU4l1s6kVxdJF//uSQ5uSzjioyrhfnxyu1vGX/qX2ZVqBOw0lsN7S3ena3Ee6azmHE8Ws2pHudyS9ckV9cd89XLOuOGxHhTxi0Ztwvj9c4t9KgTsNLbPI8c71R/OC8/u2Accy+9CPG1mlMW17U42+vFLl93Hf/GCOsMzfNd9yTG+zIeyHi4YL3rmVvoRe75NR1TbfPS2zyPHK9nf4jQi7AOreaUxXUtzvZ6ccf5PkVYZ3g93+WdW+hF7vk1HVNt89LbPI8cr2d/iNCLsA6t5tT4uiXvaso923sh46WMVzJeZ1yn5lnLOKap7/s/kus+dl7vtq61Xs93pXKbug9Tnx/O4urR1qe1vevN4v8W+JdVDU3VBk0NyO0/3jU/h2d/iNCL0I+5NVWrOTW+rsdZ3nsZH2R8lPEp4/dqnrWMY5r6vv8z+dlz5bUten+EswWv57tSuU3dh6nPj8XnY5iTpXsyL5r4rNb/Q0409SlVP/br3JKYrO9JrbV5ybPxHs/T194PavOZU0PnpGqDpgbk9h+reGsY+oPHPjNCL0I/5tZUrebU+LoeZ3nfZfyQ8VPGr4zfO3TWsqRnjGOa+r7/W/nZO+V9OrR30PSfyGcL1lK5Td2Hqc+PxVncMCdL92ReNPFZ7Q+HnGjqU6p+7Ne5JTFZ35Nae/uSZ+M9nqev/d0MbT5zauicVG3Q1IDc/rM03pJ9hraXDf3B6rM8t6cs7UW8G+04za2prGpArvF1e35XU7R3sBzaO2j6T+SzhTUa5mTpnsyLJj6r/8UPOdHUp1T92K9zS2Kyvie19vYlz8bXeJ5+bEnuNWsW3mudVrLP0PayoT9Y5X5uT1nai6L1ZWANPHpGjkN7B03/abUPAtau5729N82ahXymlewztL1s6A9WuZ/bU5b2omh9GQAAIIU1CwAAAAAAAAAAAAAAAAAAAAAAAAAAAHL8BcWoOB3A2gAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="700" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3bTU7DMBAG0GQHhXsA5RxQ6D3Kz0Fars2wqFS5UGI3LcZ5TxrJ2WUTzydP3HUAAAAAAAAAAAAAAHW76bvuNuouah513//1GwEAwHgeI98uop6inqOW8i4AA11Ez7iMmkVd9fvPuetrPQgAODH5hRzpjDB9zl2bMQIApya/kCOdEabPuWszRoDpeYm9/zXqTQ/gTOQXqE86ZzE3Af6r7/azddQm6sPeBjBZ7pYDrRg6N7bPQT1K/vfwDZPL3XKgFUPnxva5crtn6D+tt2frv93bMk/kS8n/Hr5hAFq2m5dKveuVxY69e+WMDhjLGP0AoAaH8pW8dF4P/fF3r5zRAWPQG4CWHMpX8hLANOkNAAC0bCXTAgAAAAAAAAAAAABU7xMaxAPGwNoAAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="700" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2bZ7IcNRRG9ZyAIqyA8HAgwxYYcv5LxpnMXzL2c2IH5OAEOyAHE7ZAjrapIqyC8E09qxh3SWrdaXVPz8w5VadcUrd79DTdurpSj3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFDH7QvO3SHvlHfJu+U9C5NuFQAAAABAGR7X3PYJ+aR8Sj4tn2G+CwA9hnELAGDy3Ktx9z65UW6Sm+UWuVVuk9t7NC6/oLa8KF+SL8tX5Ks9ah8AzAeWOax13GJ+DABQnmc1jj4nd8idcknukrvlHrm3R+PsO2rLu/I9+b78QH7Yo/YBwHxgmcNaxy3yegCA8rymcfR1+YZ8U+6XB+RBeUge7tE4+5Xa8rX8Rn4rv5Pf96h90D945xvawDKHtY5b5PUAZThfrpXr5Hq5QV4QKF8oL5pQG6EMObH+I5U/lp/IT+UR+Zn8XH4hv2Sc7S3M5ephbxjaoM3cm7weZoVJvy85kFfJq+U18lp5XaB8vbyh3aachCV2D/sw1Y+hunkkJ9b/oPKP8if5s/xF/iqPymPy+Jz2HcwG7A2XY1byq1n5OwBSrJGnyFVy9Uj5dHmGPFOeFThuLZ8qT4u0Ied9SetczjK/2yQ3yy1yq9wmtwfK98sHXHo9+Kg8Jo/L3+TF8hJ5qbxMXi6vOFH/u/xD/in/OlHv15Bjn5FaY071Y6huKdLXnhVyZbzbppJSsT72/YT2Barfc90+Qt3/n9V9hpy8t2lcHp4au68tY1abDD/TtzHWpibzkdjesHWMra5FdL1uUddHbZKKAalyqK4aH1LXKF3nxxLW/GEeiD2Xlmcwp5yK0TnvS1rncpb53U61YUnukrvlHrk3UN4nn3fp9eC/5T/y3+EfpmvfqH9ukjfLW+St8ja3XL9Sx1fJ1XLNwnK9X0OOfUZqjTnVj6G6/ZG+nmVKvQc2cOHvJ7QvUP2e6/YR6v5/6h4onfN0SU7eG4vLufF60dnfX/LndzlOjtvGnHE3tjdsvXeq90rXv/O09pGnRF41cHl7gjnjQzU+pK5Rus6PJdZ1gGr/xHIOaw40LE4yj4HZJvZcWp7BnHIqRue8L2mdy7U5v0utB5+t650jz5XnyQdV95B8WD4iH5WPueX6tTq+Tq6XGxaW6/0acuwz/HFrP4bqjkT6uoqPK5POi0pQ6j2w2PcT2heofv+h+8ZSTt0D05zz5OS9sbicG6+vdPb3l/z5XY6T47axyTtY1nuneq90/TvPgRvvPbQmeZUnd0+w9PhQus6PJbnrAD4W5I7j1hxoMfEZ1tgwep262BOqSx3LLdedA90Sey67jNE570ta53JN5nd1xNaDQ3X7EvWhurrP8GvMoT5M9WOobkjOu6kD13287zux7ye0L1C6HLsHhrSV83RBTt4bi8u58Xqjs7+/5M/vcpwct42Wcdcz7KYVNf2f89vNrn/nae0jT5O8ypO7J1gtN33+S9f5sSR3HWDgbDmGNQdK5aPW2DB6nbrYE6pLHcst150D3dJWTK6WUzF6XNqa38HJTCLew3hM8zORk/fG4nJuvN7h7O8v+fO7HCfHbWPseIpF9/9aWHUNzfLbza5/52ntI0+TvGreseYY1hwolY9aY8PodepiT6gudSy3XHcOdMsheVgekAdbLL8l3279r4E2mES8B4BuGF1Tm5b9lSY0yavmHWuOYc2BUvmoNTaMXmecdfPUsdxy3TkAAADQDaNrauyvAAAAAMCsMbqmxv4KAAAAAAAAwPTxH5Do0dbA2gAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="700" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3bPRKCMBAGUO5/Bj2Jf4W30KNoYSxsGGYkmpAlvDeTjmIJ7JfokGEAAAAAAAAAAAAAAAAAerZLY9+6CAAAqOSQxrF1EQAAMNMpjXPG9bc07pVqAQAAAAAAAAAAGItwJjVCDS3kfl9WylbnG8gnL6CeCP31SOPZuIYlRDiTGqGGLcmd71b7csqJkKml9XhPEdXMZ9nC1uX016dfLvXK+cla+jjCmdQINbxtZf2MMt89KNXntfOix9+UEe8p9zmuIXPkxfLW8F5Qxri/rq0KYVLkvfw/tUVcP6GEVnuWmlnRwz5sbuZEzly+y31+1iKgph7WT2A9ZA5TvBcA0Df/ZQIAAAAAAAAAAAAAACW8AOliOJXA2gAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="700" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Yx40WQRDF8W8jwLN4ssBDFsDissBDFnjIAg9Z4CELPBx50l64IKA1Xa+m+v+T3rmnVVVd0iwWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwNiWlS3KVmWbsl3ZoexUdim7fZ+Gjqg7/oTewO/oByCHirMYeac9yl5ln7JfOaAcVA4ph5UjE56FPFx1d85rxbeiB/ebQJ1ycfcDgFUVZzHyTkeVY8pxZUU5oZxUTimnlTMTnpVd5J5173RX3Z3zWvGt6MH9JlStk3vmW7n7YURz7RX0VXEWI+90VjmnnFcuKBeVS8pl5YpydcKzsovcs+6d7qq7c14rvhU9uN+EqnVyz3wrdz+MaK69gr4qzmLkna4p15Ubyk3llnJbuaPcVe5NeFZ2kXvWvdNddXfOa/a3Iss/HfebkL1Ordwz38rdDyOaa6+gr4qzGHmn+8oD5aHySHmsPFGeKs+U5xOelV3knnXvdFfdnfOa/a3I8k/H/SZkr1Mr98y3cvfDiObaK+ir4ixG3umF8lJ5pbxW3ihvlXfKe+XDhGdlF7ln3TvdVXfnvGZ/K7L803G/Cdnr1Mo9863c/TCiufYK+qo4i5F3+qh8Uj4rX5Svyjflu/JD+TnhWdlF7ln3TnfV3Tmv2d+KLP903G9C9jq1cs98K3c/jGiuvYK+Ks5i5J3WLC0Wa5V1ynplg7JR2aRsVpaXJjwsucg9697prro75zX7W5Hln477Tchep1bumW/l7ocRzbVX0FfFWax4pzmI3LNVd/rfOHs7+1zxT2dV9jq1GnXm8f/oFQA9Re7Zqjsd7finUxszj39Fr+AX5PD60cDaAAA=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="700" height="20">
+  <object x="1056" y="384" width="288" height="32"/>
+  <object x="1344" y="416" width="736" height="32"/>
+  <object x="0" y="416" width="896" height="32"/>
+  <object x="2080" y="320" width="384" height="32"/>
+  <object x="2496" y="160" width="160" height="32"/>
+  <object x="2464" y="384" width="800" height="32"/>
+  <object x="3264" y="384" width="256" height="32"/>
+  <object x="3680" y="384" width="576" height="32"/>
+  <object x="4384" y="448" width="928" height="32"/>
+  <object x="5312" y="448" width="256" height="32"/>
+  <object x="5664" y="352" width="352" height="32"/>
+  <object x="5824" y="288" width="96" height="32"/>
+  <object x="6016" y="352" width="192" height="32"/>
+  <object x="6304" y="256" width="288" height="32"/>
+  <object x="6592" y="384" width="1056" height="32"/>
+  <object x="7680" y="192" width="192" height="32"/>
+  <object x="7808" y="416" width="576" height="32"/>
+  <object x="8512" y="416" width="640" height="32"/>
+  <object x="9312" y="416" width="288" height="32"/>
+  <object x="9600" y="416" width="192" height="32"/>
+  <object x="9792" y="416" width="192" height="32"/>
+  <object x="10144" y="416" width="384" height="32"/>
+  <object x="10528" y="416" width="928" height="32"/>
+  <object x="10848" y="256" width="672" height="32"/>
+  <object x="11456" y="416" width="384" height="32"/>
+  <object x="11840" y="416" width="256" height="32"/>
+  <object x="12192" y="320" width="192" height="32"/>
+  <object x="12352" y="512" width="128" height="32"/>
+  <object x="12384" y="416" width="448" height="32"/>
+  <object x="12896" y="416" width="288" height="32"/>
+  <object x="13280" y="352" width="448" height="32"/>
+  <object x="13792" y="416" width="384" height="32"/>
+  <object x="14240" y="448" width="288" height="32"/>
+  <object x="14528" y="448" width="192" height="32"/>
+  <object x="14784" y="384" width="384" height="32"/>
+  <object x="15168" y="384" width="1280" height="32"/>
+  <object x="15328" y="224" width="672" height="32"/>
+  <object x="16448" y="384" width="192" height="32"/>
+  <object x="16768" y="448" width="384" height="32"/>
+  <object x="16992" y="224" width="192" height="32"/>
+  <object x="17152" y="448" width="288" height="32"/>
+  <object x="17344" y="192" width="192" height="32"/>
+  <object x="17568" y="448" width="256" height="32"/>
+  <object x="17728" y="224" width="192" height="32"/>
+  <object x="17824" y="448" width="256" height="32"/>
+  <object x="18208" y="320" width="160" height="32"/>
+  <object x="18144" y="448" width="1312" height="32"/>
+  <object type="bound" x="19296" y="0" width="32" height="640"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="700" height="20">
+  <object type="tuzigongjianshoufly" x="2752" y="64" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="3616" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="5952" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="7872" y="64" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="11456" y="128" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="12576" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="15200" y="128" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="16896" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="18304" y="192" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="736" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="1664" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="3104" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="3168" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="3776" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="4512" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="6432" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="7008" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="7296" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="8192" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="8704" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="8928" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="9472" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="10816" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="12768" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="15904" y="128" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="15872" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="15392" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="18528" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="18400" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="16352" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="14368" y="384" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="13632" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="2368" y="224" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="4160" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="5152" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="10304" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="sf,0.65;w,1,-10"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshou" x="672" y="288" width="32" height="32"/>
+  <object type="tuzigongjianshou" x="1216" y="288" width="32" height="32"/>
+  <object type="tuzigongjianshou" x="2016" y="320" width="32" height="32"/>
+  <object type="tuzigongjianshou" x="5536" y="320" width="32" height="32"/>
+  <object type="tuzigongjianshou" x="7936" y="320" width="32" height="32"/>
+  <object type="tuzigongjianshou" x="9984" y="256" width="32" height="32"/>
+  <object type="tuzigongjianshou" x="12032" y="352" width="32" height="32"/>
+  <object type="tuzigongjianshou" x="12320" y="224" width="32" height="32"/>
+  <object type="tuzifashi" x="13376" y="256" width="32" height="32"/>
+  <object type="tuzifashi" x="14944" y="320" width="32" height="32"/>
+  <object type="tuzifashi" x="15648" y="128" width="32" height="32"/>
+  <object type="tuzifashi" x="17312" y="384" width="32" height="32"/>
+  <object type="tuzijiansheng" x="16544" y="320" width="32" height="32"/>
+  <object type="tuzijiansheng" x="18656" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fz,0.9;w,1.0,-5,0;"/>
+   </properties>
+  </object>
+  <object type="tuzifashi" x="13120" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="700" height="20">
+  <object type="coin" x="544" y="256" width="32" height="32"/>
+  <object type="end" x="19008" y="448" width="32" height="32"/>
+  <object type="checkPoint" x="11072" y="416" width="32" height="32"/>
+  <object type="light" x="768" y="192" width="32" height="32"/>
+  <object type="light" x="1728" y="192" width="32" height="32"/>
+  <object type="light" x="4160" y="160" width="32" height="32"/>
+  <object type="light" x="5056" y="224" width="32" height="32"/>
+  <object type="light" x="6944" y="160" width="32" height="32"/>
+  <object type="light" x="10240" y="192" width="32" height="32"/>
+  <object type="light" x="14944" y="160" width="32" height="32"/>
+  <object type="light" x="16352" y="160" width="32" height="32"/>
+  <object type="light" x="17600" y="224" width="32" height="32"/>
+  <object type="light" x="18464" y="224" width="32" height="32"/>
+  <object type="trap" x="4640" y="480" width="32" height="32"/>
+  <object type="trap" x="11712" y="448" width="32" height="32"/>
+  <object type="trap" x="15264" y="416" width="32" height="32"/>
+  <object type="trap" x="15872" y="416" width="32" height="32"/>
+  <object type="barricade2" x="7360" y="224" width="32" height="32">
+   <properties>
+    <property name="cmd" value="w,3,-15;"/>
+   </properties>
+  </object>
+  <object type="barricade" x="4832" y="480" width="32" height="32"/>
+  <object type="bigcoin" x="2560" y="64" width="32" height="32"/>
+  <object type="bigcoin" x="7616" y="192" width="32" height="32"/>
+  <object type="bigcoin" x="17248" y="96" width="32" height="32"/>
+  <object type="coin" x="2368" y="160" width="32" height="32"/>
+  <object type="coin" x="2400" y="160" width="32" height="32"/>
+  <object type="coin" x="2944" y="224" width="32" height="32"/>
+  <object type="coin" x="3040" y="256" width="32" height="32"/>
+  <object type="coin" x="3872" y="224" width="32" height="32"/>
+  <object type="coin" x="4640" y="320" width="32" height="32"/>
+  <object type="coin" x="4832" y="320" width="32" height="32"/>
+  <object type="coin" x="4736" y="256" width="32" height="32"/>
+  <object type="coin" x="5600" y="256" width="32" height="32"/>
+  <object type="coin" x="5856" y="224" width="32" height="32"/>
+  <object type="coin" x="6720" y="320" width="32" height="32"/>
+  <object type="coin" x="6752" y="320" width="32" height="32"/>
+  <object type="coin" x="8352" y="352" width="32" height="32"/>
+  <object type="coin" x="8384" y="352" width="32" height="32"/>
+  <object type="coin" x="8640" y="320" width="32" height="32"/>
+  <object type="coin" x="8736" y="256" width="32" height="32"/>
+  <object type="coin" x="8832" y="320" width="32" height="32"/>
+  <object type="coin" x="8928" y="256" width="32" height="32"/>
+  <object type="coin" x="9024" y="320" width="32" height="32"/>
+  <object type="coin" x="9536" y="288" width="32" height="32"/>
+  <object type="coin" x="11008" y="128" width="32" height="32"/>
+  <object type="coin" x="11360" y="192" width="32" height="32"/>
+  <object type="coin" x="11296" y="192" width="32" height="32"/>
+  <object type="coin" x="12096" y="256" width="32" height="32"/>
+  <object type="coin" x="12448" y="352" width="32" height="32"/>
+  <object type="coin" x="13472" y="224" width="32" height="32"/>
+  <object type="coin" x="14752" y="288" width="32" height="32"/>
+  <object type="coin" x="15520" y="128" width="32" height="32"/>
+  <object type="coin" x="15776" y="96" width="32" height="32"/>
+ </objectgroup>
+</map>

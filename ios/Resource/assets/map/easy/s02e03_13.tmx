@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s02" tilewidth="32" tileheight="32">
+  <image source="s02.png" width="512" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Ttw3CQBiG4TsDA5gwAGkAYk8awKSeOCAjMAIbgAQ9seatka84I91h8b/SU7j7fp2slCRJ/9rx4/uMi48hX3bFDXc88MTL66Jkaa1UgAyyyGnfi5IVsjuPAoooGe7YuZ1lXZndFVRRQ91wx97tLOsa7G6ihTY66MbccnA/zaoem/sYYIiR4T1ObmdZF7F7jAmmmGGewn99weYlVlhjg20K75AkSfq13t/dr5CgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3IVQ0CABRAUTYsABYAC4AFwAJgAbAAWACsNqfGY+9u5+cWClmWZVmWRa9MhSpFSkFfgyYtatSDvi49+rTpBH0jxkwYMAz65ixYMmUW9G3YsmPFOug7cuLMnkPQd+POgwvXoO/Nhy9PXkHfv/QDkPLr6aAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Oyw1AUBBGYXWjAmxZYMsCW48CvArw7MZpQW7GjWRO8m3nH8fRNE3TtPfFSIQ3egzCGwVKgbsjJoG7X7dhx4wFq/Bei07w/oETF27BHe2fufDg237EsAAhItuPGJYiQ277EcMq1GhsP6L9ogfOPpJuoA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3POQrCQBiG4UljXPq49RrjadUTiCcQTyCeRFzi0set8Q1MLTFhGALfCw9/M8U3xiillFLqVzPMsfA9pGJLe1deV1Rvbe+mwNu9vQccccLZxagSbe3dFXibb05xwRU33B3tclmGB5544Y2P10XlagTGhGiihTY6ge9V/xexuYse+hhgWMN/jNg8RowJEkxr+A+l8r5Owz9BoA8AAA==
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="384" width="1600" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="kuloutouling" x="416" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;j,-5,30;j,-5,30;"/>
+   </properties>
+  </object>
+  <object type="kuloushibingfly" x="32" y="224" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,0.75,-5;w,0.75,5;w,5,-15,-15;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="128" y="480" width="32" height="32">
+   <properties>
+    <property name="cmd" value="jf,0.65,-10,50;j,-10,30;j,-10,30;"/>
+   </properties>
+  </object>
+  <object type="kuloushibingfly" x="640" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,0.75,-5;w,0.75,5;w,5,-15,-15;"/>
+   </properties>
+  </object>
+  <object type="kuloushibingfly" x="832" y="224" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,0.75,-5;w,0.75,5;w,5,-15,-15;"/>
+   </properties>
+  </object>
+  <object type="kuloushibingfly" x="928" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,0.75,-5;w,0.75,5;w,5,-15,-15;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="end" x="1504" y="384" width="32" height="32"/>
+  <object type="coin" x="1024" y="288" width="32" height="32"/>
+  <object type="coin" x="1088" y="256" width="32" height="32"/>
+  <object type="coin" x="1152" y="288" width="32" height="32"/>
+  <object type="torch" x="512" y="224" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="kuloushibing" x="192" y="480" width="32" height="32">
+   <properties>
+    <property name="cmd" value="jb,0.65,-10,50;j,-10,30;j,-10,30;"/>
+   </properties>
+  </object>
+  <object type="kuloushibingfly" x="736" y="192" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,0.75,-5;w,0.75,5;w,5,-15,-15;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

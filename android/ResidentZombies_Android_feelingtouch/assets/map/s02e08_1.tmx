@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s02" tilewidth="32" tileheight="32">
+  <image source="s02.png" width="512" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TOQ7CMBAAvRScFQ1nlYbzA8AzeQpP4An8AAoIUNFwNgxKGpCsKFFiEmlHGrmwLY8t2RhFUZRkHBycsXVwhgsu/w5ICRFjSri0zK+c1iSnKcFo6107K4lmb4K/5uMRT3gO57zwHrbeTcZtcbjiDe/4wCe+ftbYencZdsWlzJtXsIo1rGNDvtfkqddGi+Y2drCLPexL9L68MaB5iCMc4wSnBbzHhxndc1wUtF9RlHR4A0T/1wWgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_-1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OOXMBUBiFYTMJidIepSVIKZZQJiQok1hLxFYSa4lY8q+9jebOKG7zGeO+M09zqmOxmEwmk+kSu8EtrLDh7sR2D/uZPh5zwAkX3PDAC5/G9gC/9HGlAIIIIYxHRBDV2GJ4kj6uFMczEkgihTReNLYMstLHlV7xhhzyeMcHChpbESXp40qf+MI3yqigiprGVkdD+rhSEy208YMOuuhpbH0MpI8rDTHCL8aYYIqZxjbHQvq40hIrrPGHDbbYaWx7/EsfN5muvAOwMcNioA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TRwrCQBiG4ayte+veurfurXvr3noCywUsF7BcwHJEX0Ew6gQyMYku5oMHQpghHz9/NE1FRUXFvnjghQ9+BBB08f6/JIQwIogi5sI3RbMzG6OZJ5BECmlk7CrrcnLIo4AiSr+tYzkVVFFDHY3f1nmJaOfjBmdbaKODLnoOdpCNaOezBmcHGGKEMSaYWvimmQ6ivM/3Psf+41m082UbuslE5r+bYY4FltpzjqKdbzpT1zAyHVZYY4Ot7r1o5/sft52NTIcd9jjgqHs/1D3bte+ykfnvTjjjgqsr7VRUvs8NGIao/KAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QzUsCURTG4QtagZWhfdEqslRclla0LK2onVmJbkLTpI3SNy1TM/yv+y1uu/FyxoY7KHPg2bzMzHnPKBVMMNM5EcxjAYuIYsnXRt7Npt8Fgpn4ufS7gEdTdcjurLfwftrouHwnhDBmMIs5l5n6x7t/mRqRKYfnR31vGStYxRrWhdmGy/817sQQ1/tN/baxgyRSSAuzjKU7tpDQ+039sshhHwc4FGZHlu7YxZ7eb+qXRwGnOMO5MLuwdMcxTvR+U78SrnGDW5SFWcXSHUVc6f2mfvdooIkHtITZo6U7aqjr/aZ+L3jFG97xIcw+Ld3xhGe939Svhz6+McCPMBtauuMLXUG/aZlf+Atp+qAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UO04CURSA4akBpQdlAYosQNAFILgAFBegoG5AYAOiBUoFWqidSoEPQB6FSlS0ApXd8BOnvJeEiZNLwv2Tr+AcmJyEZAxDp9PpdDp7y+EEp6oPMXvAo4XfXeASV/97zlg94wWvaJuzN3XnWK6LHr4l+zLucG9+rqCKGp5Qt/m+/IjdD37Rt/Dc4X/1jg908ImvMW/ZxR72Bd91wAkXZjALt4U77e4AKaSREew98GIO8/BJZqo7RBZHOBbsF7AIP5YQkMxUV0ARZzgX7JcRRAgrWJXMVHeNG9yiJNiHsYYIoliXzFQ3fL810ERLsI9hA5uIY0sym/S2sYMEksbfu000m7YGy4N0YKAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20" opacity="0.89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Qtw0CQRBA0b0Em2NzbAGYLhEVICpAVICoAFEBwkOOTfiXbnIzJxAcmi+9ZHWws+OcZVmWZckbKM9/tZHyPG7DN/+f30R5HrbGBlvssBLcM1bOpW2mPA/n3uOAI044C+6Z6kdTtVCeX3DFDXc88BTcM9ePJsrfqbRU4FwaGWSRQz6I/t0y3piR+TuVVmDmIkooo4Kq4B2fyt+ptBrf1tFAEy20v/gOf6dJzd9pUuswexc99BP8jn/tBfrr/l2gDwAA
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="384" width="480" height="32"/>
+  <object x="480" y="384" width="160" height="32"/>
+  <object x="704" y="448" width="576" height="32"/>
+  <object x="1024" y="352" width="160" height="32"/>
+  <object x="1376" y="224" width="160" height="32"/>
+  <object x="1280" y="384" width="320" height="32"/>
+  <object x="352" y="288" width="608" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="kuloushibing" x="608" y="320" width="32" height="32"/>
+  <object type="kuloushibingfly" x="992" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn,1.0;"/>
+   </properties>
+  </object>
+  <object type="kuloushibingfly" x="768" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn,1.0;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="448" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.7;w,5,-10;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="1120" y="288" width="32" height="32"/>
+  <object type="kuloushibingfly" x="1504" y="96" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn,1.0;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="1472" y="160" width="32" height="32"/>
+  <object type="coin" x="1248" y="192" width="32" height="32"/>
+  <object type="coin" x="512" y="320" width="32" height="32"/>
+  <object type="coin" x="1184" y="224" width="32" height="32"/>
+  <object type="coin" x="800" y="320" width="32" height="32"/>
+  <object type="coin" x="480" y="320" width="32" height="32"/>
+  <object type="torch" x="160" y="224" width="32" height="32"/>
+  <object type="torch" x="1568" y="224" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="kuloushibing" x="384" y="320" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s02" tilewidth="32" tileheight="32">
+  <image source="s02.png" width="512" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0LcKwmAUhuE/9jJZsE4WbJks938vYtcp2HXxHZIl0wkmaOC88BAEA9+JMZqmaVqULd3nCutfDvkyx32ecRG+4799g23Iu4JmWcYkkETKkr3j+H5fcQt7WMBKbC+jgqrwDu/777DHAUecohopqMP2LnroC+/wvv8dDzzxwjuqkYKmbJ9hjoXwjjT/yyCLHPIooCh8/5+qsbmOBppooR3DOwZsHmKEMSawY3iHpmnx7QOCZx15
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0bluwlAQhWGzQwlhLQMhhJKEtQTCVgYSSEq2QN7/BfglrqURcnMlGxQ0R/qaU1yPZxxHo9FoNBrNf08CSaRu8O0QwoggihjiZibbroAiSlf9g3PSyOABWeSQNzPZdjW8oG7e9nNHsvO6+SPKqOAJVTybmWy7DrroBbAj2XndvIFXvKGJFtpmJttugilmAexIdvLmbvoYYIh3jDA2M9l2K3zjJ4AdyU7e3M0H5ljgE19YmplsuwOO+AtgR7KTN3ezxgZb7LDHr5nJtruMnzuSnby55v5zAigLOSw=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0TsOQEAYRWH7rz17rACFR6fy6CzIWYEZGZlB7pec7p/kiigSERH5l5gSSkMPcVRSRbXhbvawxYcj9AALDbXUGe4yD1uelFNx4/7q+3oaaKTJZVRgC6200W755mv/XUTe5wSySxB4
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztz9sNglAQhOFzRAtQpAAVCvBCAYIW4IUCQOw/Ar7z97A5WUh2ku9tHmacs1gsFotl3vmhQ48B/5lu8d65BSIssfJBJgbfsqa7QYwtEsUfki07unsckCJT/CHZcqR7whkX5Io/JFuudAuUuOGu+EOy5UH3iRfeqBR/SLbUdBt80OKr+GNKWywWaUYTjhe3
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="128" y="448" width="768" height="32"/>
+  <object x="0" y="384" width="96" height="32"/>
+  <object x="992" y="384" width="608" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="kulouwushi" x="672" y="384" width="32" height="32"/>
+  <object type="kuloushibingfly" x="1312" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="544" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.55;w,5,-15;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="0" y="256" width="32" height="32"/>
+  <object type="coin" x="64" y="256" width="32" height="32"/>
+  <object type="coin" x="32" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="kuloushibing" x="1504" y="320" width="32" height="32"/>
+ </objectgroup>
+</map>

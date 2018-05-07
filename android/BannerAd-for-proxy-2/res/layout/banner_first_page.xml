@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:id="@+id/banner_first_page"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="#ff0f1d2a">
+		<ImageView android:id="@+id/banner_first_page_image"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:background="@drawable/banner_first_page_word"
+			android:layout_centerInParent="true" />
+		<Button android:id="@+id/banner_facebook" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/banner_facebook"
+			android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+			android:layout_marginRight="10dip" android:layout_marginTop="10dip" />
+		<Button android:id="@+id/banner_twitter" android:layout_width="wrap_content"
+			android:layout_toLeftOf="@id/banner_facebook" android:layout_height="wrap_content"
+			android:background="@drawable/banner_twitter"
+			android:layout_marginRight="10dip" android:layout_marginTop="10dip"
+			android:layout_alignParentTop="true" />
+	</RelativeLayout>
+</RelativeLayout>

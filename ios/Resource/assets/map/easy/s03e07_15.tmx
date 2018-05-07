@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="801"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TN0sEQRjG8VErtTR7WppTqZ65NKfSnApPBQPYmM6ENipmtFLMaKVfQb+X/8Ji2JWXnQ1csw/8YA5mbncf3lEqTJgwYcIkOklIRgpSkYb0hL6R82QgE1nIRg5ykYd8RFCAQp+f63dnRShGCUpRhnJUoBJVqEaNh2foCaq3WtShHlE0oBFNaEYLWtHm9QP+ElRv7ehAJ7rQjR70og/9GMCg8B8mMxJUb0MYxghGMYZxTGASU5jGjOWc2/kw7W0WMcxZ1vPCNy1iCctYwaqw1+18mPa2hnVsWNabwrvtYBd72MehsNfrfCwoe2//5QjHOLGspVzgEle4xq2w13Q+7nCvnd9S9t78yjNe8Io3fAh7TefjE1/a+VNl783PxLGNAyXPlR4n9+obP9rvB2Xvzc+c4Rw3Sp4rPSb3Sk9cmXfmNI94wruS50qPyb3S46Yza34BMwkb76APAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OAQ0AAAQAMGllEF8JZrM/wSMAAH7L68CQug4AsKoBriyBo6APAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PtzKEYRiG4dXI1DK1TC3uqsWllqllaplT4JhkaplapnAVW6iYHQb/zH/PXDNf9c3zRiJhYWFhYd9ph1322OeAQ4445uTvpiXVKWecc8ElV1xzw20Sf22w+dMDP6mWusT7jnseeOSJZ1545S2Jf7fY/rmZXxYllninpkQiaaSTQSZZZJNDbsovDkuyOL2Jd56d+RRQSBHFlFBK2T++42PldlZQSRXV1FBLHfUBuaPBzkaaaKaFVqLEaAvIHe12dtBJF930EKeXvoDc0W/nAIMMMcwIo4wxHpA7JuycZIppZphljnkWAnLHop1LLLPCKmuss8FmQO4IC3bv5vDvaaAPAAA=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="1344" y="416" width="192" height="32"/>
+  <object x="992" y="320" width="288" height="32"/>
+  <object x="896" y="512" width="64" height="32"/>
+  <object x="544" y="416" width="288" height="32"/>
+  <object x="96" y="288" width="288" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="hongyiwushi" x="896" y="448" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;j,0,40;j,0,40;j,0,40;j,0,40;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushifly" x="1472" y="192" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,-5;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushifly" x="640" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,-5;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="xuankongbiao" x="544" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,5,-5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="1568" y="448" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,5,0,5;"/>
+   </properties>
+  </object>
+  <object type="coin" x="224" y="224" width="32" height="32"/>
+  <object type="coin" x="256" y="224" width="32" height="32"/>
+  <object type="coin" x="1088" y="256" width="32" height="32"/>
+  <object type="coin" x="1120" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="hongyiwushifly" x="576" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;w,5,0,5;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

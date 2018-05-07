@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="512"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDGeQyUi6Hj6gHn4y9JELvIF2+RCwr4MM9+gC9ejRyR+gcM4C4mwC9i0nwz2gsPFF01dCI3+BwrkTiLsImH+MTH/koOmbTCN/gMJ5BRCvJGD+UzLsz8bij0008gcsnE/QwHxQHHcD8Tkksy9S2R59oHkGQGwIxEZAbEwDf4DieBUQv6VhXvcDmu0PxAFAHAjEQTSwCxTHJ2lcXuUCzc8D4nwgLgDiQjqW86NgFIyCUTAKiAMAJlQZ/w==
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztz2tOwkAUhuEpIuAeQIPcKmzCG62wCVSQZYAgbMMb7ENhISALQXkb/zRpZ9JWGiSZL3mS+TI/zjlC6Ojo6Ojo7EcqhhAmzlCN8K4Zu77gNxZ72LhBI8K7+U/uiCMppJHEoaJ/4BMzzH3+MziSzEjgIMCMsN29UwllFFBU9AWW+MLK578CU3JHHqcBZoTt7p2uUcclrhR9jW/8OIsZ3n8LtuSOc1wEmBG2u3dqo4M73Ct6lt1zOMaJ4f1/QFdyRwu3AWaE7e6dhvQnPGIgovcRxpI7euhvYYaqv+EdL3j9Q59gKrnDyfMWZqi6jk4c2QBM3GsQ
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzcENABAQRNHVBv1XoiwOHLcBQvJeMtc/EQAA3DD25gfNrB9sZ7VEtHLpDOBRC9IGBOk=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzkcyhGEYhdG/VyBr2S7k7l2gpV3I7EJmFzK7kNmF0MLQGVMG3+g1+J6qM7xVtyhyuVwul/u/lemgky666aGXPvrjriU1wCBDDDPCKGNUqMZdS2qcCSapMcU0M8wyF3ctqXkWWGSJZVZYZY31P3bVH6LbYJMtttlhlz32OYi7ltQhRxxzwilnnHPBZdy1pK645oZb7rjngUee4q4l9cwLr7xR550PPvmKu5ZUQ6koGmmimRZaaaOdcin6YS73u2+SeCfJ
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="416" width="640" height="32"/>
+  <object x="800" y="416" width="800" height="32"/>
+  <object x="928" y="288" width="544" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="tuzigongjianshou" x="320" y="352" width="32" height="32"/>
+  <object type="tuzigongjianshou" x="1344" y="352" width="32" height="32"/>
+  <object type="tuzijianke" x="480" y="320" width="32" height="32"/>
+  <object type="tuzijianke" x="1472" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="0" y="352" width="32" height="32"/>
+  <object type="coin" x="704" y="256" width="32" height="32"/>
+  <object type="coin" x="672" y="288" width="32" height="32"/>
+  <object type="coin" x="736" y="288" width="32" height="32"/>
+  <object type="coin" x="96" y="320" width="32" height="32"/>
+  <object type="coin" x="64" y="320" width="32" height="32"/>
+  <object type="light" x="384" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="tuzifashi" x="576" y="352" width="32" height="32"/>
+  <object type="tuzifashi" x="1344" y="288" width="32" height="32"/>
+ </objectgroup>
+</map>

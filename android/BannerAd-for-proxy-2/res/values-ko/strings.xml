@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_app_name">BannerAd</string>
+	<string name="banner_quit_question">게임을 종료하시겠습니까?</string>
+	<string name="banner_yes">네</string>
+	<string name="banner_no">아니오</string>
+</resources>

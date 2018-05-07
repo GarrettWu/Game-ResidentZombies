@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_0" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAGo+gAAB
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlGdKxFAYRRPHGRXLCiw4RcWyB7tY9mAXyx7sbkMddR8WsKzCApZVWM5AfvjjvYzkvXEU7oFDuCT53v0IJAiEEEIIIYQQQgghhBBCCCGEEEIIIYSwU4tpzGBdgtyITdiMLViPDZazajAVzbDNu8YbvMU7D/3O8QIv8cpwP66vrbtLH+XKZt/kMI8F7EqQe7EP+3EAu7HHclYnZqMZtnnP+IKv+Oah3z0+4CM+Ge7H9bV1d+nje99y+ym75WEcwVEcS5AncQqncQbHcSIwM4hD0QzbvFTIPwHTmAnd+73jB36WChjmxfW1dXfp43vfcvspu+V5XMBFXEqQV3EN13EDl3ElMDOLc9EM27ws3ziHeSyE7v1amdGG7dhhmBfX19bdpY/vfcvtp+yWt3EHd3HPQ97Hg8DMJm5F7/g6r5J9bd2r2Vf5d/MRHmMRTzzkUzwLzJSePYyuvs6rZN/vFKPuf6X3T/aKe6ba/XxnIYQQQgjxP/gC/mZtww==
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAGo+gAAB
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="200" height="20">
+  <object x="0" y="416" width="704" height="32"/>
+  <object x="864" y="416" width="1248" height="32"/>
+  <object x="2368" y="416" width="4032" height="32"/>
+  <object type="bound" x="6304" y="0" width="32" height="640"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="200" height="20">
+  <object type="tuzijianke" x="3328" y="352" width="32" height="32"/>
+  <object type="tuzijianke" x="4320" y="480" width="32" height="32">
+   <properties>
+    <property name="cmd" value="jf, 0.7,0,40;"/>
+   </properties>
+  </object>
+  <object type="tuzijianke" x="4384" y="352" width="32" height="32"/>
+  <object type="tuzijianke" x="4416" y="480" width="32" height="32">
+   <properties>
+    <property name="cmd" value="jb, 0.9,0,50;"/>
+   </properties>
+  </object>
+  <object type="tuzijiansheng" x="5120" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="200" height="20">
+  <object name="intro_2_1" type="intro" x="2096" y="416" width="32" height="192"/>
+  <object name="intro_3_1" type="intro" x="2976" y="416" width="32" height="192"/>
+  <object name="intro_1_1" type="intro" x="688" y="416" width="32" height="192"/>
+  <object name="intro_1_2" type="intro" x="992" y="416" width="32" height="192"/>
+  <object name="intro_2_2" type="intro" x="2496" y="416" width="32" height="192"/>
+  <object name="intro_3_2" type="intro" x="3968" y="416" width="32" height="192"/>
+  <object type="end" x="5952" y="416" width="32" height="32"/>
+  <object name="intro_2_3" type="intro" x="2240" y="416" width="32" height="192"/>
+  <object name="intro_switch_gun" type="intro" x="4832" y="416" width="32" height="192"/>
+ </objectgroup>
+</map>

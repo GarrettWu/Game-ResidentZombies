@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s02" tilewidth="32" tileheight="32">
+  <image source="s02.png" width="512" height="736"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_-1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ONQ4CYRRF4VkH2qM92qM92qM9XuM1XuMbQJbG2cCfmTCECeSd5Otu8p6mSZIkSdL/ZYMdDjjhgtvSj97LAy988COA4BfuttBGx8C2ix76GCg2IYQRQRQxxE1/qd8QI4wNbCeYYoa5YpNAEimkkUHW/Ju6LbDEysB2jQ222Ck2OeRRQBEllE1/qd8eBxwNbE8444KrYlNBFTXU0UDT/Jsf7YY7Hnha+4okST/QC7V2YHigDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Pu2oCQRiGYW9BYjCWYkQtg4VaBovEUlIYS7GIlmLhOQdSJGo81EaNtTGHG4jJpeXdYkGGRZxMmEWYDx4+9oeZ/cfjMTExMTEx2f90cI0b3Lq7ilIGGGKEscu7WGmihbbkuRnmeMFC4pwfBxtt8eFQmNsz8fsIAYd7e+jjSfIdb3jHBz53PONFBKGNthwjLMztmfgdRczh7gmeMZV8xxfW+MbPjmeCSCCu0EmkHO5e4hUryXf8JSc4Q1qhz5HRsOu2nCKHC4W+RF734kKyuEJRoUso615cSAE1VBW6jobuxYVU8IB7hX5EV/fiQu5c/v9/5hd6OTZKoA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RTQ7BUBSG4a6DYq7K3O8cZe53XrSbwgowwAq0i/JOO5DIceNInDd5Rje590uu51mWZVlWsT0OOGoP+bATzrhoD/nBpH9cQhk+Kqii5nZaoStuuL84l/5xHQEaCNFES7jxnR7IkDu+t40Ouuihj4HjN77RECOMEWGCqeoiWTPMscASK6xVF8mKscEWOyRIVRdZ1v/0BHmOWD+gDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20" opacity="0.89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2TsQ5BQRBF30OBEgVKFChRoESBEl+Aj0eJApVTbthsXsZ4EpmTnGY2ube5G0WGYRiGYfw7Z7zg1fN2wCOeUu6VkImjKIu5+P3thnd8KHUl7ZVQIqeMFU9enlsBi0pdSXslNMhpYsuTV+VWw7pSl7vTUK+EHjl9HHjy2tw62FXqcnca6pUwIWeKM0/ekNsIx0pd7k5DvRJW5Kxx48mbc1vgUqnL3WmoV8KWnB3uv/CXX3F3mmavNto7/RWf7PQJL9OIwaAPAAA=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="384" width="576" height="32"/>
+  <object x="640" y="352" width="160" height="32"/>
+  <object x="832" y="352" width="288" height="32"/>
+  <object x="1152" y="288" width="288" height="32"/>
+  <object x="1568" y="384" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="kuloushibing" x="0" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.7;w,5,-10;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="448" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.7;w,5,-10;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="1376" y="192" width="32" height="32"/>
+  <object type="kuloushibingfly" x="832" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn,1.0;"/>
+   </properties>
+  </object>
+  <object type="kuloutouling" x="320" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="672" y="288" width="32" height="32"/>
+  <object type="bigcoin" x="1184" y="224" width="32" height="32"/>
+  <object type="xuankongbiao" x="896" y="320" width="32" height="32"/>
+  <object type="trap2" x="128" y="416" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="kuloushibing" x="224" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.7;w,5,-10;"/>
+   </properties>
+  </object>
+  <object type="kuloushibing" x="1024" y="256" width="32" height="32"/>
+ </objectgroup>
+</map>

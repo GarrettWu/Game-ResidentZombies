@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Resident Zombies</string>
+  <string name="request_purchasing">购买道具中...</string>
+  <string name="purchase_dialog_title">提示信息</string>
+  <string name="purchase_failed">对不起，支付失败，请重新尝试。</string>
+  <string name="purchase_succeed">恭喜您，购买成功！</string>
+  <string name="get_tap_point">恭喜您获得了%d宝石！</string>
+  <string name="offerwall">请在完成任务后重进游戏获取宝石！</string>
+  
+  <string name="str_ok">确定</string>
+  <string name="paying">正在处理支付请求...</string>
+</resources>

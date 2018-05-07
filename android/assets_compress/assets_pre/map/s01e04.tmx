@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0MENglAQRdH/O0IpA4JCF0gA7QIMfYihD7QS6/Am/gUxgS1vMTd5ySxPxjnLWi/xzqX+d2d+X8t/JZ4Lq4KrFvN1eHp2D65BzPfAM7JncE1ivhnPi73FXMs+wjb1In53YEcWC/7xhOnMclYI+hpMLbuym6DPsixrqy8E5A57
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzty7cNgEAQRNGTcH3g+sD1gesD1weuUn5IuocuQfulF0wwxmiapmma9s6DjwAhIgc7RYYciXDHFh/prlCjQSnchcVHunsMGNEJd2vxke4FKzbMwj1ZfKT7SzsOnLhwO9jav3sAHr1EDg==
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGATpgZxxoF+AHakju+w3Ef4BYGknsML0dNApGwSgYBUQCADP7AwY=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="40" height="20">
+  <object x="0" y="416" width="1280" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="40" height="20">
+  <object type="boss1" x="896" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="40" height="20"/>
+</map>

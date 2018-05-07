@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="51" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_0" width="51" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2R2w1AUBAFr448yiDx6ALx6gKNUAmdSHRhJCT+fcheO8n8n9k1RlH+SegYEzlfr3hPTkOB5dVSCW7q2T7gKLjhZqJhtqDjZKFjtaTlZHu07BZ1ScTl/h76GAj/Rcz+BFPMhLfU7G+wxU54i6Ioyt85ALkeo8fwDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="51" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PRwoCQRBAUcccTmGcUS9hHMMlzIKXMHsO40H9LgRpaxaivRDqw4MukZ6uUEjTNE3TNO3/iiKGOBJIImX8J+PwG9JO8Pm1MCLC3bbnPAooogQXnrGLy1s9lFExzlVjj0dZ5IS7bc8NNNFCGz46xtt83ttBFz3j3Bd2qaEu3G17HmGMCaaYYf7+vMAWwi4DDIW7bc9rbLDFDnscPthFaomVcLft+YgTzrjgituXu5g97za/9etZ02x3B2UuekDwDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="51" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3NsQ0AMAjAMP7/qX2MDuUKYLClzIkAAGCDrF7D51S34QPArA/is2BS8A8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="51" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBmT/HdEfAPAAA=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="51" height="20">
+  <object x="288" y="416" width="256" height="32"/>
+  <object x="672" y="416" width="960" height="32"/>
+  <object x="0" y="416" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="51" height="20">
+  <object type="summonPoint" x="512" y="352" width="32" height="32"/>
+  <object type="summonPoint" x="1088" y="352" width="32" height="32"/>
+  <object type="summonPoint" x="1312" y="256" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="864" y="352" width="32" height="32"/>
+  <object type="summonPoint" x="1440" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="51" height="20">
+  <object type="summonCoin" x="416" y="224" width="32" height="32"/>
+  <object type="summonCoin" x="832" y="288" width="32" height="32"/>
+  <object type="summonCoin" x="1376" y="256" width="32" height="32"/>
+  <object type="summonItem" x="928" y="448" width="32" height="32"/>
+  <object type="summonTrap" x="1472" y="448" width="32" height="32"/>
+ </objectgroup>
+</map>

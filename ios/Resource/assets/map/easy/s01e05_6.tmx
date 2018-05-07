@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s01" tilewidth="32" tileheight="32">
+  <image source="s01.png" width="992" height="512"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OOwoAIAwE0Zzco/g/qGtnIaRR0syDaQKBNQMAAAAAX4oecJFVUVU11dU47vPx3689wLYAoEm9t6APAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SyQ3CMBCFYQsChDJYQxlhL4M1lMFOG+yF8kcykg8ZmbAf/KTvMJaGcfAo5eLi4uLi8ttkkIWHHPIowBfObbXZV/zCfXw9p4QyKqiihjoC4dxWm32NJ74j7X0CPSdEEy200UEXPeHcVpt9fcudk94r7X16es4AQ4wwxgRTRMK5rTb7ZkreE08lv1fa+0R6zhwLLLHCGhtshXNbbfbtlLwnFZX8Xmnvs9Vz4uxxwBEnnHExzq8J8x7tC5W8n7MXfvfbkfYkrndy299F2pO4/sX/+s7c98PF5RO5AS0KJfmgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OMQ0AIAxFQdCBfxngBCUw0J2pCWx3yRub31IAgNd6NKKZuFnR/vPOtdHq5yEAIO0A1zhIEaAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="160" y="352" width="448" height="32"/>
+  <object x="608" y="320" width="768" height="32"/>
+  <object x="0" y="416" width="32" height="32"/>
+  <object x="1376" y="416" width="224" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="tuzifashi" x="416" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="528" y="240" width="32" height="32"/>
+  <object type="coin" x="976" y="208" width="32" height="32"/>
+  <object type="coin" x="1440" y="256" width="32" height="32"/>
+  <object type="barricade2" x="864" y="256" width="32" height="32">
+   <properties>
+    <property name="bounce" value="0"/>
+    <property name="cmd" value="w,3,-5;"/>
+   </properties>
+  </object>
+  <object type="box" x="1216" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="tuzifashi" x="1120" y="256" width="32" height="32"/>
+  <object type="tuzigongjianshoufly" x="1536" y="192" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="256" y="416" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+  <object type="tuzigongjianshoufly" x="928" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

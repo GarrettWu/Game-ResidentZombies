@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="1000" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="576" height="800"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="1000" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3at25VQRiFUZtQk6EGbEJNNrUDtqkBk56SDDVgUg0m1mSoCZuHQDNz/7V0v+J2R9ojHR1ppqYAAAAAAAAAAAAAAAAAAADg/7mRbqZb6Xa6k+6me+l+etDu0QAAAKCMh+lRepzW05P0ND1Lz9OLdo8GAAAAZbxMr9JGep3epLfpXXqfPjR7MgAAAKjjY/qUPqcv6Wv6lr6nH+lnu0dryr3/8dmQ1pzB/tikDlsDMKJf6Xf68+/PdH5pU9qctqSt022frxX3/sdnQ1pzBvtjkzpsDcCItuX7e3vakXamXWl32pP2pn1Fv8/d+x+fDWnNGeyPTeqwNQAj2p/v7wPpYJpJs+lQOpyOpKNFv8/d+x+fDWnNGeyPTeqwNQAjOpbv7+PpRDqZTqXT6UyaS2eLfp+79z8+G9KaM9gfm9RhawBGNJ/300JaTEvpXFpOK2k1nS/6/nLvf3w2pDVnsD82qcPWAIzoQt5PF9OltJYupyvparqWrhd9f7n3Pz4b0poz2B+b1GFrAJgc7v2Pz4a05gz2xyZ12BoAJod7/+OzIa05g/2xSR22BoDJ4d7/+GxIa85gf2xSh60BAAAAAAAAAAAAAACASfcXMtWMo4A4AQA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="1000" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3cR8/sNBiGYdPbEjj0JR0OS3pb0tuSfgCJ3otE77ABRC+rIHpZwV+A/8VzFpGij4nt2G/8ZjL3JT2bnJmx4ziR7fh8IQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGDbdcr33pUAAAAAACQ9rDyiPKo8pjzuWx0Y+0v527sSO6TF/cQ9C0zXBdYqAQDA8r2svKK8qrymvO5bHWTqQt5Y8x/l33mrgoEW99Ma79kutJ879WV6lI32rNYqD1EOVQ5TDleOUI5UjlKOdjwGAADW4yPlY+WTDf/Gu7plmvO9eBfWMV+p6bs1343dT1YsyljSve2xz6Mvkz0mu8FqrfJ45QTlRGWfcpJysnKKcqrjMQAALKXGiaXjSKvx53C9/BjlWOW4wt/KtbfuFudR0h5rfFfX85ifWJU553vxtcxXavpu7LtTr+GS5sFDc9zbXRhf24n925T+HPudKfoy595j0oV1rHf1umB7Pta/N7czlbOUs5VzlHOV85TzlQscjwEA2vDaJ5Wag5aMN2PfSY0TS8eRVuPP4Xr5acrpyhkjn81tm9Tn9tbd4jxK28P6fWBqf2DNGsiUvmnRP7qweWw5dnwJ6x2pNppjvlKyJzTWD3Kvc03fHfvu1GtoOdffq/b71vd2bG3Hat1n29aPYvW1fBZ2IW+eW1umdfsv7Xp2Id6OFyuXKJcqlymXK1coVypXOR4DALThtU8qNQdNjU83jRlT30mNE0vHkRbjz+F6+YXKfuWikc/mjt1zPjese8555IzVW+y9TUntD0z1v5ipc6fa9hgbW8bGnN7XYGobdaH+/VbJntBYPyhd57B6lz31GtbO9cfqvYT1nqHY2k7Ouk/O9cldP+rCvO9lc38/Vl/LZ2HuPLe2TOv2X9rfyEi143XK9coNyo3KTcrNyi3KrY7HAABteO2TSs1BD4qNT8fGjHPOS+bcQzpcL79auUa5NvL53PO0bg/PsfqU9k/tD0z1v1RZLee/Y2PL0jFnq73QU9qoH692YfN4O6fOJXtCU/2g5DovbT57UM55xOrdor+36peW18fyvWwX/t/3LX6/9lk4lPvMsSwzxvq9eBfy5vu5nxuTasc7lbuUu5V7lHuV+5T7lQOOxwAAbXjtk8qZg6a0fkc457h7uF5+m3K7cofh71vyejc7pf1T+wNT/a/lHKsLbf/G89RzazFv6serY+PtnDqX7Am1eA5tknuPLO3/jdfc27XnUnPPTS3b6hlm+V52U9+3+P3aZ+GSy7R+L5473597v/wTypPKU8rTyjPKs8pzyvOOxwAAbXjtk1r6HHRMybguZ+w4XC9/QHlQeaiqpuuU2/6p/YE5/a/VOoTH33iecm4t1ypi4+1UnUv2hHo/h5b4rr2UxbmU3nNraMe59mBbPAvnKnNpcq/B3Pvl31DeVN5S3lbeUd5V3lPedzwGAGjDa5/ULs1Bc8aOw/XyF5QXlZdaVXCFUvsDl9T/Wv2N5xre/589R8me0L4feNqGts3leS5rakdLuc/CbS9zTT5VPlM+V75QvlS+Ur5WvnE8BgBow2uf1K7NQRk7tpXaH7hr/W8XlOwJ7fsBsFa5z8JtL3NNflB+VH5SflZ+UX5VflN+dzwGAAAA5CrZE/qB8qFDXYFWUvfFHPeAR5kAAAAAlqNkT+i3yncelQUaSd0Xc9wDHmUCAAAAWI6SPaF/KH96VBZoJHVfzHEPeJQJAMBa/Acb+v44gDgBAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="1000" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3byw3CMAwA0I4EK8AKsAIzsAKfDfjMSo5IXCqgsZO8J/kcq22aWrWnCQAAAAAAAAAAAAAAAAAAAAAAAAAYxaXENToJYDZ7FvJZlVhHJwEANO9R4hmdBDCbPQv5bEpso5MAAACAwe1K7KOTAACqOEQnUEFEb+CpxLnymiPcy2/pDwUAoEVL1hXqh08Rddy7Y+DatUT0Bt5K3CuvmeFeZp1f1h/KiCLOl6zvAABo1ZJ1xT/qh95q/Ig6bjR6A+vJOr/sGaC3s2OOiPMl6zsAAFhGxD/CEb/rAHqSob8EAIDf+a5jRNGzFz1zbQEAoC5zeLTM7MVyXFsAAKjLHB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA5PcCv4iLzIA4AQA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="1000" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aOXPOURjG4TeNLagtsdTWRI2QqElI1HZqe9QJsnyD4KNYYia1ndpObadwFykUKZP/ece5rplfdZqneuYpTqsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMD/6m66l+6nB2kmPfznfbbATEB7sB8AAKA5j9Lj9CQ9Tc/S8/QivUyvyo0GFGY/AABAc16nN+ltepfepw/pY/qUPpcbDSjMfgDa3XiaKD0EACyQL+lr+pa+px/pZ/qVfqc/5UYDCrMfgHY3nW6VHgIAFsiSjlZraVqWlqcVqTOtTKvS6o7SEwKl2A/Urjv1lB4CAFhUk2mq9BBz1uS+XpvWpfWpK21IG9OmtNn9XQX/A5mP/UDt+lJ/6SEAgEV1O90pPcScLbmvt6ZtaXvakXam7tSTdrm/q+B/IPOxH6jdUBouPQQAUI3dua/3pL2pN+1L+1Nf6k8H3N9QLfsBAACaczD39aE0kAbT4XQkDaXhdNT9DdWyHwAAoDnHcl8fTyfSyXQqnU5n0tl0zv0N1bIfAACgOedzX19IF9OldDldSVfTSLrm/oZq2Q8AANCc0dzXY+l6upFupvE0kSbTlPsbqmU/AAAAAAAAAAAAALSvv3JejMyAOAEA
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="1000" height="20">
+  <object x="0" y="384" width="1024" height="32"/>
+  <object x="1248" y="352" width="96" height="32"/>
+  <object x="1504" y="384" width="96" height="32"/>
+  <object x="1664" y="352" width="96" height="32"/>
+  <object x="1888" y="320" width="96" height="32"/>
+  <object x="2144" y="320" width="96" height="32"/>
+  <object x="2432" y="416" width="96" height="32"/>
+  <object x="2592" y="320" width="96" height="32"/>
+  <object x="2880" y="480" width="96" height="32"/>
+  <object x="3168" y="352" width="128" height="32"/>
+  <object x="3520" y="352" width="96" height="32"/>
+  <object x="3840" y="352" width="96" height="32"/>
+  <object x="4096" y="320" width="192" height="32"/>
+  <object x="4512" y="384" width="96" height="32"/>
+  <object x="4768" y="320" width="96" height="32"/>
+  <object x="4928" y="224" width="96" height="32"/>
+  <object x="5184" y="288" width="96" height="32"/>
+  <object x="5504" y="416" width="96" height="32"/>
+  <object x="5856" y="384" width="288" height="32"/>
+  <object x="6368" y="416" width="96" height="32"/>
+  <object x="6592" y="352" width="96" height="32"/>
+  <object x="6944" y="320" width="96" height="32"/>
+  <object x="7200" y="448" width="128" height="32"/>
+  <object x="7456" y="352" width="64" height="32"/>
+  <object x="7648" y="352" width="64" height="32"/>
+  <object x="7872" y="320" width="96" height="32"/>
+  <object x="8128" y="416" width="96" height="32"/>
+  <object x="8416" y="256" width="64" height="32"/>
+  <object x="8512" y="448" width="96" height="32"/>
+  <object x="8736" y="192" width="64" height="32"/>
+  <object x="8928" y="352" width="96" height="32"/>
+  <object x="9152" y="288" width="64" height="32"/>
+  <object x="9280" y="384" width="64" height="32"/>
+  <object x="9344" y="416" width="64" height="32"/>
+  <object x="9568" y="416" width="96" height="32"/>
+  <object x="9856" y="384" width="448" height="32"/>
+  <object x="10496" y="352" width="96" height="32"/>
+  <object x="10784" y="288" width="96" height="32"/>
+  <object x="10944" y="384" width="96" height="32"/>
+  <object x="11264" y="288" width="96" height="32"/>
+  <object x="11296" y="448" width="96" height="32"/>
+  <object x="11488" y="320" width="96" height="32"/>
+  <object x="11712" y="224" width="96" height="32"/>
+  <object x="11872" y="320" width="96" height="32"/>
+  <object x="12096" y="352" width="96" height="32"/>
+  <object x="12416" y="384" width="96" height="32"/>
+  <object x="12512" y="224" width="96" height="32"/>
+  <object x="12608" y="352" width="96" height="32"/>
+  <object x="12928" y="448" width="96" height="32"/>
+  <object x="13088" y="288" width="96" height="32"/>
+  <object x="13440" y="416" width="96" height="32"/>
+  <object x="13728" y="320" width="64" height="32"/>
+  <object x="13952" y="320" width="64" height="32"/>
+  <object x="13920" y="448" width="96" height="32"/>
+  <object x="14176" y="256" width="64" height="32"/>
+  <object x="14272" y="384" width="96" height="32"/>
+  <object x="14528" y="320" width="64" height="32"/>
+  <object x="14848" y="384" width="64" height="32"/>
+  <object x="15104" y="256" width="128" height="32"/>
+  <object x="15456" y="416" width="64" height="32"/>
+  <object x="15616" y="384" width="64" height="32"/>
+  <object x="15936" y="320" width="64" height="32"/>
+  <object x="16192" y="384" width="288" height="32"/>
+  <object x="16768" y="352" width="64" height="32"/>
+  <object x="17120" y="384" width="288" height="32"/>
+  <object x="17600" y="320" width="64" height="32"/>
+  <object x="17920" y="384" width="64" height="32"/>
+  <object x="18240" y="320" width="64" height="32"/>
+  <object x="18560" y="416" width="64" height="32"/>
+  <object x="18880" y="416" width="64" height="32"/>
+  <object x="19072" y="224" width="64" height="32"/>
+  <object x="19392" y="352" width="64" height="32"/>
+  <object x="19680" y="288" width="1184" height="32"/>
+  <object type="bound" x="20384" y="0" width="32" height="640"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="1000" height="20"/>
+ <objectgroup name="obj_objects" width="1000" height="20">
+  <object type="end" x="20096" y="288" width="32" height="32"/>
+  <object type="checkPoint" x="10080" y="384" width="32" height="32"/>
+  <object type="coin" x="480" y="288" width="32" height="32"/>
+  <object type="coin" x="512" y="256" width="32" height="32"/>
+  <object type="coin" x="544" y="224" width="32" height="32"/>
+  <object type="coin" x="640" y="224" width="32" height="32"/>
+  <object type="coin" x="672" y="224" width="32" height="32"/>
+  <object type="coin" x="704" y="224" width="32" height="32"/>
+  <object type="coin" x="800" y="224" width="32" height="32"/>
+  <object type="coin" x="832" y="256" width="32" height="32"/>
+  <object type="coin" x="864" y="288" width="32" height="32"/>
+  <object type="xuankongbiao" x="1024" y="192" width="32" height="32"/>
+  <object type="xuankongbiao" x="1408" y="352" width="32" height="32"/>
+  <object type="xuankongbiao" x="2304" y="192" width="32" height="32"/>
+  <object type="xuankongbiao" x="3360" y="128" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="4480" y="128" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="5760" y="416" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="6752" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,5,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="7296" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="8512" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="9696" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="11072" y="128" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="12256" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="13184" y="384" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="14688" y="160" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,-5;w,4,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="15328" y="256" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,0,-5;w,4,0,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="15808" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,0,-5;w,4,0,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="16608" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,0,-5;w,4,0,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="18112" y="384" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,0,-5;w,4,0,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="19232" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,0,-5;w,4,0,5;"/>
+   </properties>
+  </object>
+  <object type="xuankongbiao" x="2784" y="384" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,2,0,-5;w,4,0,5;"/>
+   </properties>
+  </object>
+  <object type="coin" x="1120" y="320" width="32" height="32"/>
+  <object type="coin" x="1152" y="320" width="32" height="32"/>
+  <object type="coin" x="1280" y="288" width="32" height="32"/>
+  <object type="coin" x="1536" y="320" width="32" height="32"/>
+  <object type="coin" x="1696" y="288" width="32" height="32"/>
+  <object type="coin" x="1920" y="256" width="32" height="32"/>
+  <object type="coin" x="2176" y="256" width="32" height="32"/>
+  <object type="coin" x="2048" y="192" width="32" height="32"/>
+  <object type="coin" x="2464" y="352" width="32" height="32"/>
+  <object type="coin" x="2624" y="256" width="32" height="32"/>
+  <object type="coin" x="2912" y="416" width="32" height="32"/>
+  <object type="coin" x="3168" y="320" width="32" height="32"/>
+  <object type="coin" x="3200" y="288" width="32" height="32"/>
+  <object type="coin" x="3232" y="288" width="32" height="32"/>
+  <object type="coin" x="3264" y="320" width="32" height="32"/>
+  <object type="coin" x="3552" y="288" width="32" height="32"/>
+  <object type="coin" x="3872" y="288" width="32" height="32"/>
+  <object type="coin" x="4096" y="256" width="32" height="32"/>
+  <object type="coin" x="4160" y="224" width="32" height="32"/>
+  <object type="coin" x="4224" y="256" width="32" height="32"/>
+  <object type="coin" x="4480" y="320" width="32" height="32"/>
+  <object type="coin" x="4640" y="256" width="32" height="32"/>
+  <object type="coin" x="4672" y="256" width="32" height="32"/>
+  <object type="coin" x="5024" y="160" width="32" height="32"/>
+  <object type="coin" x="5056" y="128" width="32" height="32"/>
+  <object type="coin" x="5152" y="192" width="32" height="32"/>
+  <object type="coin" x="5184" y="224" width="32" height="32"/>
+  <object type="coin" x="5376" y="288" width="32" height="32"/>
+  <object type="coin" x="5408" y="288" width="32" height="32"/>
+  <object type="coin" x="5600" y="352" width="32" height="32"/>
+  <object type="coin" x="5632" y="320" width="32" height="32"/>
+  <object type="bigbigcoin" x="5952" y="288" width="32" height="32"/>
+  <object type="coin" x="6240" y="256" width="32" height="32"/>
+  <object type="coin" x="6272" y="256" width="32" height="32"/>
+  <object type="coin" x="6304" y="256" width="32" height="32"/>
+  <object type="coin" x="6560" y="256" width="32" height="32"/>
+  <object type="coin" x="6592" y="256" width="32" height="32"/>
+  <object type="coin" x="6624" y="256" width="32" height="32"/>
+  <object type="coin" x="7200" y="384" width="32" height="32"/>
+  <object type="coin" x="7232" y="352" width="32" height="32"/>
+  <object type="coin" x="7264" y="320" width="32" height="32"/>
+  <object type="coin" x="7648" y="288" width="32" height="32"/>
+  <object type="coin" x="7872" y="224" width="32" height="32"/>
+  <object type="coin" x="7904" y="224" width="32" height="32"/>
+  <object type="coin" x="8000" y="288" width="32" height="32"/>
+  <object type="coin" x="8032" y="288" width="32" height="32"/>
+  <object type="coin" x="8192" y="352" width="32" height="32"/>
+  <object type="coin" x="8224" y="288" width="32" height="32"/>
+  <object type="coin" x="8256" y="224" width="32" height="32"/>
+  <object type="coin" x="8544" y="160" width="32" height="32"/>
+  <object type="coin" x="8576" y="160" width="32" height="32"/>
+  <object type="coin" x="8608" y="160" width="32" height="32"/>
+  <object type="bigcoin" x="8992" y="64" width="32" height="32"/>
+  <object type="coin" x="9184" y="224" width="32" height="32"/>
+  <object type="coin" x="9312" y="320" width="32" height="32"/>
+  <object type="coin" x="9376" y="352" width="32" height="32"/>
+  <object type="coin" x="9568" y="352" width="32" height="32"/>
+  <object type="coin" x="9632" y="352" width="32" height="32"/>
+  <object type="bigbigcoin" x="9920" y="256" width="32" height="32"/>
+  <object type="coin" x="10464" y="288" width="32" height="32"/>
+  <object type="coin" x="10496" y="288" width="32" height="32"/>
+  <object type="coin" x="10528" y="288" width="32" height="32"/>
+  <object type="coin" x="10560" y="288" width="32" height="32"/>
+  <object type="coin" x="10752" y="224" width="32" height="32"/>
+  <object type="coin" x="10784" y="224" width="32" height="32"/>
+  <object type="coin" x="10816" y="224" width="32" height="32"/>
+  <object type="coin" x="10848" y="224" width="32" height="32"/>
+  <object type="coin" x="10880" y="224" width="32" height="32"/>
+  <object type="coin" x="11040" y="320" width="32" height="32"/>
+  <object type="coin" x="11072" y="320" width="32" height="32"/>
+  <object type="coin" x="11104" y="288" width="32" height="32"/>
+  <object type="coin" x="11136" y="256" width="32" height="32"/>
+  <object type="coin" x="11360" y="224" width="32" height="32"/>
+  <object type="coin" x="11408" y="176" width="32" height="32"/>
+  <object type="coin" x="11456" y="224" width="32" height="32"/>
+  <object type="coin" x="11584" y="256" width="32" height="32"/>
+  <object type="coin" x="11616" y="224" width="32" height="32"/>
+  <object type="coin" x="11648" y="192" width="32" height="32"/>
+  <object type="coin" x="11840" y="192" width="32" height="32"/>
+  <object type="coin" x="11872" y="224" width="32" height="32"/>
+  <object type="coin" x="11968" y="288" width="32" height="32"/>
+  <object type="coin" x="12000" y="256" width="32" height="32"/>
+  <object type="coin" x="12064" y="256" width="32" height="32"/>
+  <object type="coin" x="12224" y="320" width="32" height="32"/>
+  <object type="coin" x="12256" y="352" width="32" height="32"/>
+  <object type="coin" x="12320" y="320" width="32" height="32"/>
+  <object type="coin" x="12352" y="288" width="32" height="32"/>
+  <object type="coin" x="12704" y="288" width="32" height="32"/>
+  <object type="coin" x="12672" y="288" width="32" height="32"/>
+  <object type="coin" x="12800" y="256" width="32" height="32"/>
+  <object type="coin" x="12832" y="256" width="32" height="32"/>
+  <object type="coin" x="13088" y="224" width="32" height="32"/>
+  <object type="coin" x="13120" y="224" width="32" height="32"/>
+  <object type="coin" x="13152" y="224" width="32" height="32"/>
+  <object type="coin" x="13280" y="128" width="32" height="32"/>
+  <object type="coin" x="13248" y="128" width="32" height="32"/>
+  <object type="coin" x="13440" y="352" width="32" height="32"/>
+  <object type="coin" x="13472" y="352" width="32" height="32"/>
+  <object type="coin" x="13504" y="352" width="32" height="32"/>
+  <object type="coin" x="13568" y="256" width="32" height="32"/>
+  <object type="coin" x="13600" y="256" width="32" height="32"/>
+  <object type="coin" x="13728" y="256" width="32" height="32"/>
+  <object type="coin" x="13952" y="256" width="32" height="32"/>
+  <object type="coin" x="14176" y="192" width="32" height="32"/>
+  <object type="coin" x="14272" y="288" width="32" height="32"/>
+  <object type="coin" x="14304" y="288" width="32" height="32"/>
+  <object type="coin" x="14368" y="224" width="32" height="32"/>
+  <object type="coin" x="14528" y="256" width="32" height="32"/>
+  <object type="coin" x="14560" y="256" width="32" height="32"/>
+  <object type="coin" x="14880" y="320" width="32" height="32"/>
+  <object type="coin" x="14912" y="288" width="32" height="32"/>
+  <object type="coin" x="14944" y="256" width="32" height="32"/>
+  <object type="coin" x="14976" y="224" width="32" height="32"/>
+  <object type="coin" x="15008" y="192" width="32" height="32"/>
+  <object type="coin" x="15520" y="320" width="32" height="32"/>
+  <object type="coin" x="15520" y="288" width="32" height="32"/>
+  <object type="coin" x="15712" y="160" width="32" height="32"/>
+  <object type="coin" x="15744" y="160" width="32" height="32"/>
+  <object type="coin" x="15776" y="160" width="32" height="32"/>
+  <object type="bigbigcoin" x="16288" y="160" width="32" height="32"/>
+  <object type="coin" x="16480" y="288" width="32" height="32"/>
+  <object type="coin" x="16544" y="224" width="32" height="32"/>
+  <object type="coin" x="16608" y="160" width="32" height="32"/>
+  <object type="coin" x="16672" y="224" width="32" height="32"/>
+  <object type="coin" x="16736" y="288" width="32" height="32"/>
+  <object type="coin" x="16832" y="288" width="32" height="32"/>
+  <object type="coin" x="16896" y="224" width="32" height="32"/>
+  <object type="coin" x="16960" y="160" width="32" height="32"/>
+  <object type="coin" x="17024" y="224" width="32" height="32"/>
+  <object type="coin" x="17088" y="288" width="32" height="32"/>
+  <object type="coin" x="17248" y="256" width="32" height="32"/>
+  <object type="coin" x="17376" y="256" width="32" height="32"/>
+  <object type="coin" x="17312" y="192" width="32" height="32"/>
+  <object type="coin" x="17280" y="320" width="32" height="32"/>
+  <object type="coin" x="17344" y="320" width="32" height="32"/>
+  <object type="coin" x="17696" y="256" width="32" height="32"/>
+  <object type="coin" x="17760" y="256" width="32" height="32"/>
+  <object type="coin" x="17824" y="256" width="32" height="32"/>
+  <object type="coin" x="18016" y="224" width="32" height="32"/>
+  <object type="coin" x="18080" y="224" width="32" height="32"/>
+  <object type="coin" x="18144" y="224" width="32" height="32"/>
+  <object type="coin" x="18368" y="224" width="32" height="32"/>
+  <object type="coin" x="18432" y="224" width="32" height="32"/>
+  <object type="coin" x="18496" y="224" width="32" height="32"/>
+  <object type="coin" x="18656" y="320" width="32" height="32"/>
+  <object type="coin" x="18720" y="320" width="32" height="32"/>
+  <object type="coin" x="18784" y="320" width="32" height="32"/>
+  <object type="coin" x="19168" y="128" width="32" height="32"/>
+  <object type="coin" x="19232" y="128" width="32" height="32"/>
+  <object type="coin" x="19296" y="128" width="32" height="32"/>
+  <object type="bigbigcoin" x="19776" y="128" width="32" height="32"/>
+ </objectgroup>
+</map>

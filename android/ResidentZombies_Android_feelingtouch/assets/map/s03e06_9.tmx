@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PtzYFQBiF0XuFWqaWqWVqmVrmKWVqmVqmlqmF7Q1MNWat+dbsYrrzFwq53P9rlTXW2WCTLbbZYTfetKD22OeAQ4445oRTzuJNC+qcCy654pobbrnjPtqysB545IlnXnjljXc+4k0L6pMvvn8/RY8SSimjvBh331+rsLOSKqqpoZY66mlI5I5GO5topoVW2ming85E7uiys5seeumjnwEGGUrkjmE7RxhljHEmmGSK6UTumLFzljnmWWCRJZZZSeSOXC6Xy4X1AxDwgzCgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PpxGCURBF4b8HcpLkJMlJklMBQAlACUAJQAlAlxyNesMTu2LPzGeuu0FgWZZlSRVCGBFEEUMcCSQFtxTSyDj+yCKHPAooooQyKoJbFTXUHX800EQLbXTQRQ99wW2AIUaOP8aYYIoZ5lhgiZXgtsYGW8cfv+2wx0HB5tMRJ5wVbD5dcMVNwebTHQ88FWw+vfDGR8FmWdb/fQEReAbtoA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RyS9DYRSG8VJDsTQXS2q2VDNLYw1L85QYqmaSouZpgaDKn+vZSL5I3PMdLES+J/ntbm7ee67P53K5XC6X6yelIR1+ZCATWchGADnIRd4f35aPAhSiCMUoQSmCKEM5KpQblrCMFawi6vFs1GKHtK0SVQihGjWoRR3q0YBGNCnvE8cBDnGEhMd3JCx2SNuaEUYLWtGGdnSgE13oRo/FzT7/uzvc48HjGz6SdkjbetGHfgxgEEOIYBgjGMWYxc3M+2iTdkjbxjGBSUxhGjOYxRzmsYBFi5uZ99Em7ZC2rSGGdWxgE1vYxg52sYd9i5uZ99Em7ZC2mZ3hHBe4xBWucYNbi5uZ99F2jBOcfrFD2qZJ8++0PeIJz0jiBSm84u0b77PtN+/zX3oHlDNzeqAPAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OyQ2AMBDAwC03JFRAjg6AlnENILEfj+S/IyRJkv5RaKNKjfbcndcO6jRo0srd+eSki+7sEUlSPNh65xegDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_3" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Otw0AIAwFUaZlBlYgbECYFQ9AQzBu7klX2vrOAQCAV7z1gIUslc2boDHkUpeG4v8oJcX/v1SpWY8AAByZ46pwV6APAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Sty9FYRzH4XsXnVln1pl1Zp1Zvcw6s84fpzPrzDqDZ7qzm5w4TnI+ybO++f6SN5GIi4uLi/vrDjnimBNOOeOcCy7Dm5ZRV1xzwy133PPAI0/hTcuoZ1545Y13Pvjki+/wpmVUVjKRyCaHXPLIp4BCipJhL/xdxXaWUEoZ5VRQSRXVEbmjxs5a6qingUaaaKYl4DtSwT6XrtXONtrpoJMuuumhN+A7VoN9Ll2fnf0MMMgQw4wwylhE/tW4nRNMMsU0M6SYZS4id8zbucAiSyyzwiprrEfkjg07N9limx122WOfg4jcEfd/+gHyVHMvoA8AAA==
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="64" y="384" width="448" height="32"/>
+  <object x="1280" y="352" width="192" height="32"/>
+  <object x="928" y="416" width="288" height="32"/>
+  <object x="576" y="352" width="288" height="32"/>
+  <object x="128" y="256" width="1248" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="hongyiwushifly" x="864" y="224" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushifly" x="1568" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushi" x="288" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="1312" y="256" width="32" height="32"/>
+  <object type="coin" x="1344" y="256" width="32" height="32"/>
+  <object type="coin" x="1376" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="heiyiwushi" x="960" y="352" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="801"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PNzPEQRzH4TuhdnLt5Fo+tUwt8yplaplappaphcc78J8xdnZmP7NPsd33l8ulUqn/boVV1lhng0222GYn3LRM7bLHPgcccsQxJ5yGm5apM8654JIrrrnhlrtgy7J1zwOPPPHMC6+88R5uWqY++OTr55P3KKOcCirzYff9tio7C1RTQy111NNAYyR3NNlZpJkWWmmjnQ46I7mjy85ueuilj34GKDEYyR1Ddg4zwihjjDPBJFOR3DFt5wyzzDHPAosssRzJHalUKvXXfQNL9IFXoA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QtwoCQRRGYQuzvdnebG+2N9ubBVNhFkxvoL6yp9xmXcF1QLgHvuZW84/FIkmSJEnSv2eFDXY44FR0c8ENj867pphhjgWWBju88MGPAIKKbiGEEdF51wlnXHDFzWBnFDHEkUBS0S2FNDJ6H0x3PPD8YGcWOeRRQFHRrYQyKm92GKXdWUUNdTTQVHRroY3OFzu0ddFDHwMMFd1GGGNi0o4V1thgi52i2x4HHE3aIUm/6AUxGnN5oA8AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3NwQ0AEAAEQdWqQQu0QLF8dIAIM8l990IAAF6Wx8qGbjzcqmNt4eeULm0B8J8Okz61a6APAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OwQkAIAwAse6vK9RZ7RBioSRw/4sAAJhlVbt74oGsTvcEAN9c6FQUAKAPAAA=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="0" y="384" width="1024" height="32"/>
+  <object x="1248" y="352" width="96" height="32"/>
+  <object x="1504" y="384" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20"/>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="coin" x="480" y="288" width="32" height="32"/>
+  <object type="coin" x="512" y="256" width="32" height="32"/>
+  <object type="coin" x="544" y="224" width="32" height="32"/>
+  <object type="coin" x="640" y="224" width="32" height="32"/>
+  <object type="coin" x="672" y="224" width="32" height="32"/>
+  <object type="coin" x="704" y="224" width="32" height="32"/>
+  <object type="coin" x="800" y="224" width="32" height="32"/>
+  <object type="coin" x="832" y="256" width="32" height="32"/>
+  <object type="coin" x="864" y="288" width="32" height="32"/>
+  <object type="xuankongbiao" x="1024" y="192" width="32" height="32"/>
+  <object type="xuankongbiao" x="1408" y="352" width="32" height="32"/>
+  <object type="coin" x="1120" y="320" width="32" height="32"/>
+  <object type="coin" x="1152" y="320" width="32" height="32"/>
+  <object type="coin" x="1280" y="288" width="32" height="32"/>
+  <object type="coin" x="1536" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20"/>
+</map>

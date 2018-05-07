@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root" android:orientation="horizontal"
+	android:layout_width="500dip" android:layout_height="300dip"
+	android:gravity="center_horizontal">
+
+	<RelativeLayout android:id="@+id/title_layout"
+		android:layout_width="fill_parent" android:layout_height="48dip"
+		android:layout_alignParentTop="true">
+		<TextView android:id="@+id/notice_title"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:layout_alignParentLeft="true" android:layout_marginLeft="24dip"
+			android:layout_marginTop="20dip" android:text="@string/banner_title"
+			android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffe531" />
+		<Button android:id="@+id/ok" android:layout_width="80dip"
+			android:layout_height="40dip" android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true" android:layout_marginRight="2dip"
+			android:layout_marginTop="10dip" android:background="@null" />
+	</RelativeLayout>
+	
+	<RelativeLayout 
+		android:id="@+id/wrapper"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/title_layout"
+		android:layout_centerHorizontal="true"
+		>
+		<ListView android:id="@+id/game_list" android:layout_width="480dip"
+			android:layout_height="wrap_content" 
+			android:layout_centerHorizontal="true" android:dividerHeight="0dip"
+			android:cacheColorHint="#00000000" android:scrollbars="none"
+			android:divider="@null" android:listSelector="@android:color/transparent"
+			android:layout_marginTop="5dip" 
+			/>
+		<ProgressBar android:id="@+id/ads_loading"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+			style="?android:attr/progressBarStyleLarge" />
+	</RelativeLayout>
+
+	<RelativeLayout android:id="@+id/button_layout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@id/wrapper" android:layout_marginTop="5dip">
+		<TextView android:id="@+id/quit_question"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffe531"
+			android:layout_centerHorizontal="true" android:text="@string/banner_quit_question" />
+		<Button android:id="@+id/yes" android:layout_width="120dip"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_marginLeft="80dip" android:layout_marginTop="5dip"
+			android:text="@string/banner_yes" android:layout_below="@id/quit_question"
+			android:textStyle="bold" />
+		<Button android:id="@+id/no" android:layout_width="120dip"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true"
+			android:layout_marginRight="80dip" android:layout_marginTop="5dip"
+			android:text="@string/banner_no" android:layout_below="@id/quit_question"
+			android:textStyle="bold" />
+	</RelativeLayout>
+</RelativeLayout>

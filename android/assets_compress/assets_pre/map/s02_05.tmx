@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="98" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s02" tilewidth="32" tileheight="32">
+  <image source="s02.png" width="512" height="736"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="98" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SSYrCQABGYYOzO4duh53t7K611W6P7RE8gjfQdt6JsysfKLgMkcLE8D/4KAhFUqmqQEAppZRSSnm98X38xxQzzN1bjqstsMQKawPvGziYu7mPW+ywx8HAGt6xI04442LgfUMHcy3rNgYZQwgjYhlYhAezu+9R/juGOBIG9mDkYG6S76WQRgYf+PTpOdjd9yz/nUMeBQN7MHEwt8j3vlBCGRVUfXoOdve9xrM6Gmi+eA+++V4Lbfygg65Pz8Huvvd49os/9H26B17IzfuuHum+K6WUUko91xU52cMxoB4AAA==
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="98" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UN04EQRCF4cVDiIcQDyEeQjyEeAjxbIiHAO8DzAUwF8AckT/pZNRqqUbTzWhVT/qS6mSmVHqZjEaj0Wg0Go1Go9FocjV5yEcBClGEYpR4mJWiLMxvpSKSHZSjApWoQjVqUOthVof6hP/1v+O6Y8kOGtCIJjSjBa1o8zBrR0dSC0hJXHcs2UEnutCNHvSiD/0eZgMYtHzDKc5wjovIW8jejNOlrjuW7GAIwxjBKMYwjgkPs0lMWb7hCc94wWvkLWRvxulS1x1LdjCNGcxiDvNYwKKH2RKWLd/whnd84DPyFrI343Sp644lO1jBKtawjg1sYsvDbBtZyzd84Rs/+I28hexNSY+YuO5YsoMd7GIP+zjAIY48zI5x4vgnW0L2pqRHTFx3LNnBJa5wjRvc4g73HmYPeHT8ky0he1PSIyauO05qB2lIyN6U9IiJ645zKSF7M6kuNfkDMnV0BKAeAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="98" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQo/oAAAAAAAAADgb2WWB3+gHgAA
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="98" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UuQ5BURRG4fvceAI05gSNsUAjxhgKMU+d8W2s4hYiCmTLFmev5MtpZOcv5HqeZVmWZVkuF9ceYHkxFJHQHuJ4Bf8tqa6wmv7bUl1hTfx3qrri/xtgiBHGQjczQnfu66EvfDOJFNLCdz9pgy122CtveWyGufaIN/vGf1C7A45YYIkV1kK3y6igKnTPhU4444LrC79/5VvbRgddiYHW0375W2tZUgUQREh7iOOFEUFUe4jjZZFDXnuI49VQR0N7yJNu3fEZ0aAeAAA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="98" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Tyy5DURSG93avmWsxcymtWdEW03oD3oBHwhPgCVrvI6rorHU38g3OzpHdiNg56xxhfcmXM2nW+vPvLmMURVEURVEURVEU5Wcc4wmeZh3kn3OG53iRdZA/zAM+fvObBjbxUj7Or+UW7/AeOwLzB60xQ1ZgcMRV9L3GFt5gW25dH6H9+blf8BXf8D3JgBFTvMG0leuniz0T390TPgvs+YrQ/rrR1+UepaMxzOG4wP92mZkrVq4fy+wBG9/dMI4I3p9PaH9+7jzO4TwuJJjf7dnELcF+Jpg5aeO7m8HZFN8htD8/9xoWsYTrCeZ3e+q4J9jPIjOXbHx3BVxN8R1C+/Nz13Abd3A3wfxuzz4eCPZTZubGp7urYDXFdwjtz88thdtziEcZ9KMoIXwAzt3sOaAeAAA=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="98" height="20">
+  <object x="0" y="384" width="224" height="32"/>
+  <object x="352" y="352" width="928" height="32"/>
+  <object x="1408" y="416" width="128" height="32"/>
+  <object x="1632" y="448" width="1088" height="32"/>
+  <object x="2912" y="384" width="224" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="98" height="20">
+  <object type="summonPoint" x="1088" y="288" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+    <property name="scope" value="0"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="896" y="288" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+    <property name="scope" value="0"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="2400" y="384" width="32" height="32">
+   <properties>
+    <property name="scope" value="2"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="2208" y="352" width="32" height="32">
+   <properties>
+    <property name="scope" value="2"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="544" y="288" width="32" height="32">
+   <properties>
+    <property name="inAir" value="1"/>
+    <property name="scope" value="0"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="2624" y="384" width="32" height="32">
+   <properties>
+    <property name="scope" value="2"/>
+   </properties>
+  </object>
+  <object type="summonPoint" x="1984" y="384" width="32" height="32">
+   <properties>
+    <property name="scope" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="98" height="20">
+  <object type="summonCoin" x="448" y="224" width="32" height="32"/>
+  <object type="summonCoin" x="1344" y="288" width="32" height="32"/>
+  <object type="summonCoin" x="1504" y="352" width="32" height="32"/>
+  <object type="summonCoin" x="1952" y="288" width="32" height="32"/>
+  <object type="summonCoin" x="2560" y="288" width="32" height="32"/>
+  <object type="summonItem" x="640" y="384" width="32" height="32"/>
+  <object type="torch" x="704" y="192" width="32" height="32"/>
+ </objectgroup>
+</map>

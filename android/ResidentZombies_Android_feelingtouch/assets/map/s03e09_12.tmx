@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="offsetX" value="0"/>
+  <property name="offsetY" value="4"/>
+ </properties>
+ <tileset firstgid="1" name="s03" tilewidth="32" tileheight="32">
+  <image source="s03.png" width="578" height="1024"/>
+ </tileset>
+ <layer name="tile_terrain_deco_back" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <layer name="tile_terrain_-1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzscRgVEYRuG/Bzkt5bSU01JOBaAElIASUAK6dEq44y7eMfOdmWd/gsCyLOv/CiGMCKKIIY4EkkghjYxq0LEscsijgCJKKKOCKmqoqwYda6CJFtrooIse+hhgiJHoz7UxJphihjkWWGKFNTbYqgZ/bIc9DuIP34444awe8eyCK27qEc/ueOCpHvHshTc+6hHLsiz6AkXJEIE=
+  </data>
+ </layer>
+ <layer name="tile_terrain_0" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <layer name="tile_terrain_1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1DdLBGEQxvEznqE0p9KcSnMqzak0C4IBsyAYMIfCgIqKNmqllupHUL+Xf+EOZLh3T/bmWIV94Mcusy8z8zbr8bhx4+avJwKRvvd4JCDRuXXc/PPc4R4PDu8Ral7wijenFwkx7/jAZ4h9vIhDNGIQa7Nm9X/x2tjL//+KMsyUyUAmUpGGdKVaFrKRY+MO30lCMlIM/eX8YpSgAIUoUqqVogzlNu+RizzkG/rL+XWoRzVqUKtUa0Ajmix2HccEJjElvlWgElWG/nJ+J7rQhnZ0KNW60YPeAPv7aytYxRrWxZlmtKDV0F/OH8EoBjGEYYVasIz5nkc4xglOxZk+9GPAMFPOX8QS5jCPBYVasCz/4sw0ZjBrmCnna2UHu9hT6reBTWxhW/TfV5oRKJe4wnWY+h/gMEy9f+YRT3hW7HmGc1zgBrcWZ78Aon9T5g==
+  </data>
+ </layer>
+ <layer name="tile_terrain_2" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1NkJgDAQhOGU69GBRwceLWgL2oL25TwPCURhMSHzwQ/7ENCwEOdERKREFapRg1qac9KhHg1opNmH752KCc1oQSvNPnzvXPG9LfHuN7Qbf9MC7/5A569/9A3v/kJ34Gyp71Wq3r5XIhLvATf4JBA=
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_on" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztyjEJAAAIADDTmsH4lhAU2e5FAACf5dDZVkMHAK5qkcwBvQ==
+  </data>
+ </layer>
+ <layer name="tile_terrain_deco_front" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0LkvRGEUhvF7Gzu1ndpObae2U9up7dS2mVFjFv4mO7Wd2k7hOaE4ySQyV4z7Fd+T/HKaSeb9ruPYbDabzfa79rCPAxziCMc4wSnO/Jv2Y3q3dI4LXOIK17jBLe5w78PGRNK7pQc84gnPeMEr3vCODx82JpLeLaW4jpOKNKQjA5nIQjZy3K/fBRD08D+hP10dn94t5XLzkI8CFKIIxShB6ffvooglcZfX76R3S2XcclSgElWoRg1qUecmY3V8Xr+T3i3VcxvQiCY0owWtaEP7P73Da3q31MHtRBe60YNe9KEfA4a+Q++WBrlDGMYIRjGGcUxg0tB36N3SFHcaM5jFHOaxgEUsGfoOvVta5q5gFWtYRwBBhLBh6Dv0bmmTu4VthBFBFDHsYNfQd+g+AfQeRkg=
+  </data>
+ </layer>
+ <objectgroup name="obj_terrain" width="50" height="20">
+  <object x="1504" y="288" width="96" height="32"/>
+  <object x="1248" y="384" width="352" height="32"/>
+  <object x="768" y="384" width="160" height="32"/>
+  <object x="0" y="384" width="768" height="32"/>
+  <object x="1056" y="256" width="64" height="32"/>
+  <object x="1120" y="256" width="192" height="32"/>
+  <object x="1024" y="448" width="288" height="32"/>
+  <object x="128" y="224" width="288" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies" width="50" height="20">
+  <object type="hongyiwushi" x="160" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,1.5,0;w,1,-15;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushi" x="864" y="288" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,1.5,0;w,1,-15;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushi" x="480" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,1.5,0;w,1,-15;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushi" x="1248" y="192" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,1.5,0;w,1,-15;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="obj_objects" width="50" height="20">
+  <object type="bigcoin" x="1152" y="384" width="32" height="32"/>
+  <object type="coin" x="512" y="256" width="32" height="32"/>
+  <object type="coin" x="896" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="obj_enemies_alt" width="50" height="20">
+  <object type="hongyiwushi" x="288" y="320" width="32" height="32">
+   <properties>
+    <property name="cmd" value="n,1.0;w,1.5,0;w,1,-15;"/>
+   </properties>
+  </object>
+  <object type="hongyiwushifly" x="1344" y="352" width="32" height="32">
+   <properties>
+    <property name="cmd" value="fn;"/>
+   </properties>
+  </object>
+  <object type="jiamianjunshi" x="1568" y="192" width="32" height="32">
+   <properties>
+    <property name="cmd" value="s,0.8;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
